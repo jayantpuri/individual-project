@@ -51,7 +51,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Chat-bot-team-20/README.md at main · shiro102/Chat-bot-team-20</title>
+  <title>Chat-bot-team-20/remove_noise.py at main · shiro102/Chat-bot-team-20</title>
     <meta name="description" content="Contribute to shiro102/Chat-bot-team-20 development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -65,11 +65,11 @@
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/31243905/ws?session=eyJ2IjoiVjMiLCJ1IjozMTI0MzkwNSwicyI6NjYzMzQyODQ5LCJjIjoyOTYxOTU0NzQyLCJ0IjoxNjE4MzMyOTA0fQ==--e3d93fb14cdc23a53d3fe348f2897c4e3988c253807cb9d064a51aa05aba1aa5" data-refresh-url="/_alive" data-session-id="7733d042392b9158269a890a7b212e46f7b2e1499323840a232c52dbcb85c950">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/31243905/ws?session=eyJ2IjoiVjMiLCJ1IjozMTI0MzkwNSwicyI6NjYzMzQyODQ5LCJjIjoyODkwMTk3MTcsInQiOjE2MTgzMzI5NDV9--082fd40c09153ed43838835c4c253aa9bb332dfe52df94eaec327b5b2c7dd651" data-refresh-url="/_alive" data-session-id="7733d042392b9158269a890a7b212e46f7b2e1499323840a232c52dbcb85c950">
     <link rel="shared-web-socket-src" href="/socket-worker-3f088aa2.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="06C5:276C:4ABDAD:516D8C:6075CCE0" data-pjax-transient="true" /><meta name="html-safe-nonce" content="d29fbb9782cba52f82cdba784b995f4f666a602d0e927e5125fbef901b7acd4a" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9zaGlybzEwMi9DaGF0LWJvdC10ZWFtLTIwIiwicmVxdWVzdF9pZCI6IjA2QzU6Mjc2Qzo0QUJEQUQ6NTE2RDhDOjYwNzVDQ0UwIiwidmlzaXRvcl9pZCI6IjI0MTA4MDAxNjMzODMwNzkzMCIsInJlZ2lvbl9lZGdlIjoiYXAtc291dGgtMSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="19b0036ea22d18de78cf1f20d01cd4a14cbae81c69030d7b3ddbbb3f9edcda2b" data-pjax-transient="true" />
+  <meta name="request-id" content="06C5:276C:4AC746:5177DA:6075CD09" data-pjax-transient="true" /><meta name="html-safe-nonce" content="d29fbb9782cba52f82cdba784b995f4f666a602d0e927e5125fbef901b7acd4a" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9zaGlybzEwMi9DaGF0LWJvdC10ZWFtLTIwIiwicmVxdWVzdF9pZCI6IjA2QzU6Mjc2Qzo0QUM3NDY6NTE3N0RBOjYwNzVDRDA5IiwidmlzaXRvcl9pZCI6IjI0MTA4MDAxNjMzODMwNzkzMCIsInJlZ2lvbl9lZGdlIjoiYXAtc291dGgtMSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="de589caa488538c443d1f202a132b8c1dc89f06f95fbcb3db8b59c77b49ebeb2" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:341125886" data-pjax-transient>
 
@@ -108,7 +108,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="NmRmNGVhNGJkMjI1MjU4ZTczYTVjNzBlOTJjMmI4Mjc0ZGVmZjE3MzI5YmM3YjkxMWVlZDA2N2I0YWMwNGJmMXx7InJlbW90ZV9hZGRyZXNzIjoiMTA2LjE5My4yMDkuMTE3IiwicmVxdWVzdF9pZCI6IjA2QzU6Mjc2Qzo0QUJEQUQ6NTE2RDhDOjYwNzVDQ0UwIiwidGltZXN0YW1wIjoxNjE4MzMyOTA0LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="N2RhYTQ4ZTM1YzY1NDA5NDhlMTU5YzU5ZGVlMTJmOGQwMzI0NWU2NWU5MGEwM2FjZjBiZGNjNWU0YjZjYzg0YXx7InJlbW90ZV9hZGRyZXNzIjoiMTA2LjE5My4yMDkuMTE3IiwicmVxdWVzdF9pZCI6IjA2QzU6Mjc2Qzo0QUM3NDY6NTE3N0RBOjYwNzVDRDA5IiwidGltZXN0YW1wIjoxNjE4MzMyOTQ1LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,JS_HTTP_CACHE_HEADERS,AUTOCOMPLETE_EMOJIS_IN_MARKDOWN_EDITOR">
 
@@ -122,7 +122,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -196,7 +196,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="WKl+DkUb7ucn+1cIpUg5oenFNMApBt8ZAo5LgmjM5NAm5g2yaTfxNxoeIG43eTwU+fyedQJwoGHXaHciEejKug==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="qppnYY0NMxZMnbjFwBtpF9CtnD2/LtI8YYWJhjN4xObU1RTdoSEsxnF4z6NSKmyiwJQ2iJRYrUS0Y7UmSlzqjA==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -375,7 +375,7 @@
     <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:workspaces context:user" data-selected-links="/codespaces /codespaces" href="/codespaces">
       Codespaces
 </a>
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;jayantpuri&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="483bb5ac1182efb6346964236fa46082234d82540a70f42a24b62fed4379ba9b" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;jayantpuri&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="26eed304f79cb845ab928400e86b4d5f209dd259f0fa99a07a2cfafd33ae10ba" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" href="/settings/profile">
       Settings
@@ -384,7 +384,7 @@
       <img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/31243905?s=40&amp;v=4" width="20" height="20" alt="@jayantpuri" />
       jayantpuri
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="diCkSgZIPz3BtMo8LT5/5NqentDq4TgW9URtvdOzRpUWaYexzPFA0ex9xvXNjETAEstmGU+PzYcKdSfqZj8lmg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qtn1INKCDcM9ZvM6oB1ncjMSVJCMERzKooVQ3erJdBfKkNbbGDtyLxCv//NAr1xW+0esWSl/6VtdtBqKX0UXGA==" />
       <button type="submit" class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15 d-md-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -408,7 +408,7 @@
       <notification-indicator
         class="js-socket-channel"
         data-test-selector="notifications-indicator"
-        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MzEyNDM5MDUiLCJ0IjoxNjE4MzMyOTA0fQ==--782f4213026f828ef43a20cc136e9555579fe9cecaa01b374885028ca6437e7e">
+        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MzEyNDM5MDUiLCJ0IjoxNjE4MzMyOTQ1fQ==--b5d27fd74e23a1ba39216f940a4991b11a53324103042126a92720ff0fbcb60f">
         <a href="/notifications"
           class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
           
@@ -578,7 +578,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="5105a0b9bab8c464c7d31046a78bedfb7ef768c6c6febb6929b3caae16c283b3" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
+      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="c1de601019499b3343cfaca948fed457e5ff769ba497a7e3dba8a335ac75d335" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
           <span data-menu-button>
             <span
               hidden
@@ -622,7 +622,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="4kFbsy/cMumVHsvy+Ef4iqPYqoJoGyMuh3zWhFEgbFS9Qci7gaSuyDQePnEgVXV64ZQ0dJbbGRzVQfOTJQ7LdQ==" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Dlc+n/s+pWrPzoc0Vyz+qnwMLsoC6nPSqyPLdoUnNmVRV62XVUY5S27OcrePPnNaPkCwPPwqSeD5Hu5h8QmRRA==" />
 
                 <input type="hidden" name="repository_id" value="341125886">
 
@@ -724,7 +724,7 @@
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="/Jhb/5DwrDivYJE/enw7yCoBsgSx0NQAsSGK3kxClVejmMj3PogwGQ5gZLyibrY4aE0s8k8Q7jLjHK/JOGwydg==" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="wH0tQXyfQBHj16B4upn30Kk9CW7m7uksp2d17LBdp4+ffb5J0ufcMELXVftii3og63GXmBgu0x71WlD7xHMArg==" />
 
               <input type="hidden" name="repository_id" value="341125886">
 
@@ -862,9 +862,9 @@
 
   <li>
         <div class="d-block js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/shiro102/Chat-bot-team-20/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="8nWthig6526RbA+Z/3YNmrA1TRhSeg4lpeNRXLZbs6TVZ0guOYqyr9uM9ot3LOgT7wbBzKAFQf3jpvVSWrGlhg==" />
+    <form class="starred js-social-form" action="/shiro102/Chat-bot-team-20/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="sgUEyJyQDAWsznll7as8C4C/GFyiUuUo6WCsZOT3+1iVF+FgjSBZxOYugHdl8dmC34yUiFAtqvCvJQhqCB3teg==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar shiro102/Chat-bot-team-20" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="cc303af1249d92059bcee2a93cef2df55ee4703ce2f0d18810e205b6606e5a32" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar shiro102/Chat-bot-team-20" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="c09670a8a80a3dc055245674aac61f2d0d1703d43e1538589da260bece0df570" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
         <span>
           Unstar
 </span></button>        <a class="social-count js-social-count" href="/shiro102/Chat-bot-team-20/stargazers"
@@ -872,9 +872,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/shiro102/Chat-bot-team-20/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="+Hxj8BzoYfKgtjoKiWbjyIwUnHMe982aTPoTxWBRZ3fX55SWUe3KlI/wMf9wo61EPVNPrTzISVPeXhFW7FR6Rg==" />
+    <form class="unstarred js-social-form" action="/shiro102/Chat-bot-team-20/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="5LI3uqiuIojzzChbKruUUvLA8NIPpnWr5eEPbiEwY+vLKcDc5auJ7tyKI67TftreQ4cjDC2Z8WJ3RQ39rTV+2g==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star shiro102/Chat-bot-team-20" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="bd3feb079394fb229de5d2ba8e550b51eeb4cd79e9892daa79cdd6a523458ecd" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star shiro102/Chat-bot-team-20" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="3a3d02ac9f4f485cb54a9f09b5ab982b9ab372c4a5e2819191c08cf7dfadea7c" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
         <span>
           Star
 </span></button>        <a class="social-count js-social-count" href="/shiro102/Chat-bot-team-20/stargazers"
@@ -891,7 +891,7 @@
                       <summary
                     class="btn btn-sm btn-with-count"
                     title="Fork your own copy of shiro102/Chat-bot-team-20 to your account"
-                    data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="a59fea32c0fbb4a19cd715151e9611deb3784a308a2d210b6ecea0a31257f56b" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork">
+                    data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="39e4bd6f056f1176fdd695475b9188a420fefd687552773ff635b69755213111" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork">
                     <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
                     Fork
                   </summary>
@@ -1066,9 +1066,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/shiro102/Chat-bot-team-20/blob/3d2b38d0afadfab5357eb141ff582ab1a13d51a7/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/shiro102/Chat-bot-team-20/blob/3d2b38d0afadfab5357eb141ff582ab1a13d51a7/remove_noise.py">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:71b8070deb158d304807b68eddd81356b44ca32f38a05ca2af74550feb6e753b -->
+    <!-- blob contrib key: blob_contributors:v22:ed3378b6658196ad6fe4dd09445d7b390f828468d8fd50c64bb914da6fd49384 -->
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -1128,10 +1128,10 @@
           >
 
             <template data-target="ref-selector.noMatchTemplate">
-                <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/shiro102/Chat-bot-team-20/branches" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="YLUHXTfgNbXEIRkhEWKme94vI+HQZhisbcqRqdn5wVDQ7e0Mk+gIPzbEEYyBnE6m/HuFn95Yzo5a0cZ+9nwOzA==" />
+                <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/shiro102/Chat-bot-team-20/branches" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="IXUDquWjUlIOoyzeiFX2TuL3nt05fFJltl+ywuV7ULGRLen7Qatv2PxGJHMYqx6TwKM4ozdChEeBROUVyv6fLQ==" />
                   <input type="hidden" name="name" value="{{ refName }}">
                   <input type="hidden" name="branch"  value="main">
-                  <input type="hidden" name="path_binary" value="UkVBRE1FLm1k">
+                  <input type="hidden" name="path_binary" value="cmVtb3ZlX25vaXNlLnB5">
 
                   <button class="SelectMenu-item break-word" type="submit" role="menuitem" data-index="{{ index }}">
                     <svg class="octicon octicon-git-branch SelectMenu-icon flex-self-baseline" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path></svg>
@@ -1154,7 +1154,7 @@
             </div>
 
             <template data-target="ref-selector.itemTemplate">
-              <a href="https://github.com/shiro102/Chat-bot-team-20/blob/{{ urlEncodedRefName }}/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+              <a href="https://github.com/shiro102/Chat-bot-team-20/blob/{{ urlEncodedRefName }}/remove_noise.py" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
                 <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
                 <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
                 <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span> 
@@ -1186,7 +1186,7 @@
             </template>
 
             <template data-target="ref-selector.itemTemplate">
-              <a href="https://github.com/shiro102/Chat-bot-team-20/blob/{{ urlEncodedRefName }}/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+              <a href="https://github.com/shiro102/Chat-bot-team-20/blob/{{ urlEncodedRefName }}/remove_noise.py" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
                 <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
                 <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
                 <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
@@ -1213,7 +1213,58 @@
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/shiro102/Chat-bot-team-20"><span>Chat-bot-team-20</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/shiro102/Chat-bot-team-20"><span>Chat-bot-team-20</span></a></span></span><span class="separator">/</span><strong class="final-path">remove_noise.py</strong>
+          <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
+  <summary class="btn-link Link--secondary css-truncate" aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:341125886,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="d60428914b49d06b07df3bc2d937b2239a413234f66cff903522e410fbf554db">
+      <svg class="octicon octicon-code" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+    <span data-menu-button>Jump to</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Code definitions</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="jumpto-symbol-select-menu">
+          <svg aria-label="Close menu" class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+        </button>
+      </header>
+        <div class="SelectMenu-filter">
+          <input
+            class="SelectMenu-input form-control js-filterable-field"
+            id="jumpto-symbols-filter-field"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+            autofocus
+            placeholder="Filter definitions"
+            aria-label="Filter definitions">
+        </div>
+      <div class="SelectMenu-list">
+        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:341125886,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="416f38b24817b31ad84ec307deb4c4001d47baf8e4bbffe01c944bdbb45dc008" href="/shiro102/Chat-bot-team-20/blob/main/remove_noise.py#L12">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>remove_noise</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:341125886,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="416f38b24817b31ad84ec307deb4c4001d47baf8e4bbffe01c944bdbb45dc008" href="/shiro102/Chat-bot-team-20/blob/main/remove_noise.py#L36">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>TestRemoveNoise</span>
+              <span class="flex-auto d-flex flex-justify-end">Class</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:341125886,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="416f38b24817b31ad84ec307deb4c4001d47baf8e4bbffe01c944bdbb45dc008" href="/shiro102/Chat-bot-team-20/blob/main/remove_noise.py#L37">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>test_remove_noise</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>        </div>
+      </div>
+      <footer class="SelectMenu-footer">
+        <div class="d-flex flex-justify-between">
+          Code navigation index up-to-date
+          <svg class="octicon octicon-dot-fill text-green" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+        </div>
+      </footer>
+    </div>
+  </details-menu>
+</details>
+
       </h2>
       <a href="/shiro102/Chat-bot-team-20/find/main"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1227,7 +1278,7 @@
 </summary>
   <div>          <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="f20fd47934290016d0854a8f9a0ef583a72fbb99925b610ca485ea23e6025a0b" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/shiro102/Chat-bot-team-20/find/main">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="2394bd14688d15319623ba685500de75b066fa4805a66d6dc8a6ca244b8486b0" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/shiro102/Chat-bot-team-20/find/main">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small color-text-secondary" aria-hidden="true">T</span>
 </a>            </li>
@@ -1239,14 +1290,22 @@
                 </span>
               </button>
             </li>
+            <li data-toggle-for="blob-more-options-details">
+              <button type="button" data-toggle-for="jumpto-symbol-select-menu" class="btn-link dropdown-item">
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Go to definition</span>
+                  <span class="text-small color-text-secondary" aria-hidden="true">R</span>
+                </span>
+              </button>
+            </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy value="README.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+              <clipboard-copy value="remove_noise.py" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
                 Copy path
               </clipboard-copy>
             </li>
             <li>
-              <clipboard-copy value="https://github.com/shiro102/Chat-bot-team-20/blob/3d2b38d0afadfab5357eb141ff582ab1a13d51a7/README.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
+              <clipboard-copy value="https://github.com/shiro102/Chat-bot-team-20/blob/3d2b38d0afadfab5357eb141ff582ab1a13d51a7/remove_noise.py" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
                 </span>
@@ -1259,7 +1318,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/shiro102/Chat-bot-team-20/contributors/main/README.md" class="commit-loader">
+      <include-fragment src="/shiro102/Chat-bot-team-20/contributors/main/remove_noise.py" class="commit-loader">
         <div class="Box-header Box-header--blue d-flex flex-items-center">
           <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
           <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -1289,16 +1348,16 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      141 lines (78 sloc)
+      65 lines (50 sloc)
       <span class="file-info-divider"></span>
-    9.44 KB
+    1.88 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a href="/shiro102/Chat-bot-team-20/raw/main/README.md" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
-        <a href="/shiro102/Chat-bot-team-20/blame/main/README.md" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
+      <a href="/shiro102/Chat-bot-team-20/raw/main/remove_noise.py" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
+        <a href="/shiro102/Chat-bot-team-20/blame/main/remove_noise.py" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
     </div>
 
     <div>
@@ -1310,13 +1369,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/shiro102/Chat-bot-team-20/edit/main/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qJTavfD14mfwB+o6hKAVPfadbKoiItBPsDMW2QeESQi8nt1gbEhBzII1YDWThla2awRCZ/GbbbpTOe9H4Olmzg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/shiro102/Chat-bot-team-20/edit/main/remove_noise.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Rvl56HmUcBywRN9ULvN+qZ9IodNZJ+UIs+CF602YN/hsgsJXTBxKr4mvm2/uYv5Sa4s2T3za7sF3OEwEp3EuFA==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit this file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/shiro102/Chat-bot-team-20/delete/main/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="nsg0hC7QCt0LKnqfZAwoDXWIoRqst4xSb9qNRkTitHrtGv59UfwmKqpp8l7j+NNYWeT/oiDWUIakUooQv3QBtg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/shiro102/Chat-bot-team-20/delete/main/remove_noise.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Af5Rdo+qMpgnCghTygajPt7q282qicIXkWHNsHcfOETPs9dyttdiTpWLzR9guRHO/Ui+OxpgSz0CGxqgcufu9w==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg class="octicon octicon-trash" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
@@ -1326,182 +1385,301 @@
 </div>
 
 
-      <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-chat-bot-team-20" class="anchor" aria-hidden="true" href="#chat-bot-team-20"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Chat-bot-team-20</h1>
-<h1><a id="user-content-link-for-the-first-live-demohttpsdrivegooglecomfiled1r-z9toquw9xpvbaxjcbn5r_dbihx0qfvviewlink-for-the-second-live-demohttpsdrivegooglecomfiled1_dkay2ugbuemmk6ment-rrq6qot9wohyview" class="anchor" aria-hidden="true" href="#link-for-the-first-live-demohttpsdrivegooglecomfiled1r-z9toquw9xpvbaxjcbn5r_dbihx0qfvviewlink-for-the-second-live-demohttpsdrivegooglecomfiled1_dkay2ugbuemmk6ment-rrq6qot9wohyview"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Link for the first live demo:
-<a href="https://drive.google.com/file/d/1r-Z9tOQUw9xpVBAXJCbN5R_DBIHX0QFv/view" rel="nofollow">https://drive.google.com/file/d/1r-Z9tOQUw9xpVBAXJCbN5R_DBIHX0QFv/view</a>
-<br>
-Link for the second live demo:
-<a href="https://drive.google.com/file/d/1_DKAy2UgbUeMMk6meNT-RrQ6qOt9WOhY/view" rel="nofollow">https://drive.google.com/file/d/1_DKAy2UgbUeMMk6meNT-RrQ6qOt9WOhY/view</a></h1>
-<h1><a id="user-content-github-url-httpsgithubcomshiro102chat-bot-team-20" class="anchor" aria-hidden="true" href="#github-url-httpsgithubcomshiro102chat-bot-team-20"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Github URL: <br><a href="https://github.com/shiro102/Chat-bot-team-20">https://github.com/shiro102/Chat-bot-team-20</a></h1>
-<h2><a id="user-content-describe-your-topicinterest-context-of-the-chatbot-who-will-use-it-etc-" class="anchor" aria-hidden="true" href="#describe-your-topicinterest-context-of-the-chatbot-who-will-use-it-etc-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Describe your topic/interest (context of the chatbot, who will use it, etc. )</h2>
-<p>In this project, we developed an interactive conversational agent that responds to user input. In response to the user, the agent generates sentences as output. There are 2 types of target users. The first type of target users includes anime and manga lovers who would love to talk about them and know more about it. The second type of target users includes anyone who are interested in Japanese culture. There are 2 types of topics as well. The first type of topic of the conversation is about the general information and personal preference of anime. The second type of topic of the conversation is about the general information of Japan such as people, religion, food, samurai and so on.</p>
-<br>
-<h2><a id="user-content-how-the-code-works" class="anchor" aria-hidden="true" href="#how-the-code-works"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>How the code works</h2>
-<h3><a id="user-content-how-to-run-it" class="anchor" aria-hidden="true" href="#how-to-run-it"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>How to run it:</strong></h3>
-<p>To compile the code, we run in terminal these 2 lines of codes - “python train.py” and “python chatbot.py”. The first code is to train the model so that the GUI might function properlyl. The second code is to run the app. Further instructions are in the README file in the CODE folder.</p>
-<h3><a id="user-content-stages-of-development" class="anchor" aria-hidden="true" href="#stages-of-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>Stages of development:</strong></h3>
-<p>There are five stages of the development for the code: data importing and loading, data preprocessing, data training and testing, model building, and GUI developing.</p>
-<h3><a id="user-content-how-the-classes-are-organized" class="anchor" aria-hidden="true" href="#how-the-classes-are-organized"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>How the classes are organized:</strong></h3>
-<p>There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tkinter, Wikipedia, Stanford Corenlp, Sentimental Analyser, GUI, Home, and Recent.</p>
-<ul>
-<li>
-<p>Class “nltk” contains a group of libraries which provide statistical processing for English Language and is commonly used for Natural Language Processing. It is used throughout all the developing stages except the model building stage and the GUI development stage.</p>
-</li>
-<li>
-<p>There are 4 critical methods within this class: “nltk.stem.wordnetlemmatizer”, “nltk.word_tokenize”, “nltk.pos_tag” (instead of Stanfordnlp’s POS tagging to simplify the implementation) and “nltk.corpus”</p>
-<pre><code>  1. The first method, “nltk.stem.wordnetlemmatizer”, converts a word into its lemma form, groups different words to be analyzed as a single item based on similar meaning, and then creates a pickle file to store the Python objects which we will use while predicting. 
+    
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-python  gist-border-0">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c># -*- coding: utf-8 -*-</span></td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>nltk</span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>nltk</span>.<span class=pl-s1>tag</span> <span class=pl-k>import</span> <span class=pl-s1>pos_tag</span></td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>nltk</span>.<span class=pl-en>download</span>(<span class=pl-s>&#39;averaged_perceptron_tagger&#39;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>nltk</span>.<span class=pl-en>download</span>(<span class=pl-s>&#39;wordnet&#39;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>re</span>, <span class=pl-s1>string</span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-k>from</span> <span class=pl-s1>nltk</span>.<span class=pl-s1>stem</span> <span class=pl-k>import</span> <span class=pl-v>WordNetLemmatizer</span></td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-s1>l</span> <span class=pl-c1>=</span> <span class=pl-v>WordNetLemmatizer</span>()</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>unittest</span></td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>remove_noise</span>(<span class=pl-s1>tweet_tokens</span>, <span class=pl-s1>stop_words</span> <span class=pl-c1>=</span> ()):</td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>cleaned_tokens</span> <span class=pl-c1>=</span> []</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>for</span> <span class=pl-s1>token</span>, <span class=pl-s1>tag</span> <span class=pl-c1>in</span> <span class=pl-en>pos_tag</span>(<span class=pl-s1>tweet_tokens</span>):</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>token</span> <span class=pl-c1>=</span> <span class=pl-s1>re</span>.<span class=pl-en>sub</span>(<span class=pl-s>&#39;http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&amp;+#]|[!*\(\),]|&#39;</span>\</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">                       <span class=pl-s>&#39;(?:%[0-9a-fA-F][0-9a-fA-F]))+&#39;</span>,<span class=pl-s>&#39;&#39;</span>, <span class=pl-s1>token</span>)</td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>token</span> <span class=pl-c1>=</span> <span class=pl-s1>re</span>.<span class=pl-en>sub</span>(<span class=pl-s>&quot;(@[A-Za-z0-9_]+)&quot;</span>,<span class=pl-s>&quot;&quot;</span>, <span class=pl-s1>token</span>)</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-s1>tag</span>.<span class=pl-en>startswith</span>(<span class=pl-s>&quot;NN&quot;</span>):</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>pos</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;n&#39;</span></td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>elif</span> <span class=pl-s1>tag</span>.<span class=pl-en>startswith</span>(<span class=pl-s>&#39;VB&#39;</span>):</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>pos</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;v&#39;</span></td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>else</span>:</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>pos</span> <span class=pl-c1>=</span> <span class=pl-s>&#39;a&#39;</span></td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>lemmatizer</span> <span class=pl-c1>=</span> <span class=pl-v>WordNetLemmatizer</span>()</td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>token</span> <span class=pl-c1>=</span> <span class=pl-s1>lemmatizer</span>.<span class=pl-en>lemmatize</span>(<span class=pl-s1>token</span>, <span class=pl-s1>pos</span>)</td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-en>len</span>(<span class=pl-s1>token</span>) <span class=pl-c1>&gt;</span> <span class=pl-c1>0</span> <span class=pl-c1>and</span> <span class=pl-s1>token</span> <span class=pl-c1>not</span> <span class=pl-c1>in</span> <span class=pl-s1>string</span>.<span class=pl-s1>punctuation</span> <span class=pl-c1>and</span> <span class=pl-s1>token</span>.<span class=pl-en>lower</span>() <span class=pl-c1>not</span> <span class=pl-c1>in</span> <span class=pl-s1>stop_words</span>:</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>cleaned_tokens</span>.<span class=pl-en>append</span>(<span class=pl-s1>token</span>.<span class=pl-en>lower</span>())</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-s1>cleaned_tokens</span></td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>TestRemoveNoise</span>(<span class=pl-s1>unittest</span>.<span class=pl-v>TestCase</span>):</td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>test_remove_noise</span>(<span class=pl-s1>self</span>):</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># empty string</span></td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>test1</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>actual1</span> <span class=pl-c1>=</span> <span class=pl-en>remove_noise</span>(<span class=pl-s1>test1</span>)</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>expected1</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;&quot;</span>  </td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>bool1</span> <span class=pl-c1>=</span> <span class=pl-s1>actual1</span> <span class=pl-c1>==</span> <span class=pl-s1>expected1</span></td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">        <span class=pl-en>print</span>(<span class=pl-s>&quot;Test 1 is &quot;</span> <span class=pl-c1>+</span> <span class=pl-en>str</span>(<span class=pl-s1>bool1</span>))</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">        </td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># text with actual noise</span></td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>test2</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;!asda123$#@&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>actual2</span> <span class=pl-c1>=</span> <span class=pl-en>remove_noise</span>(<span class=pl-s1>test2</span>)</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>expected2</span> <span class=pl-c1>=</span> [<span class=pl-s>&#39;a&#39;</span>, <span class=pl-s>&#39;s&#39;</span>, <span class=pl-s>&#39;d&#39;</span>, <span class=pl-s>&#39;a&#39;</span>, <span class=pl-s>&#39;1&#39;</span>, <span class=pl-s>&#39;2&#39;</span>, <span class=pl-s>&#39;3&#39;</span>]</td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>bool2</span> <span class=pl-c1>=</span> <span class=pl-s1>actual2</span> <span class=pl-c1>==</span> <span class=pl-s1>expected2</span></td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">        <span class=pl-en>print</span>(<span class=pl-s>&quot;Test 2 is &quot;</span> <span class=pl-c1>+</span> <span class=pl-en>str</span>(<span class=pl-s1>bool2</span>))</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">        </td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># text with Chinese characters</span></td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>test3</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;你好，我正%在上C#OSC3!10&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>actual3</span> <span class=pl-c1>=</span> <span class=pl-en>remove_noise</span>(<span class=pl-s1>test3</span>)</td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>expected3</span> <span class=pl-c1>=</span> [<span class=pl-s>&#39;你&#39;</span>, <span class=pl-s>&#39;好&#39;</span>, <span class=pl-s>&#39;，&#39;</span>, <span class=pl-s>&#39;我&#39;</span>, <span class=pl-s>&#39;正&#39;</span>, <span class=pl-s>&#39;在&#39;</span>, <span class=pl-s>&#39;上&#39;</span>, <span class=pl-s>&#39;c&#39;</span>, <span class=pl-s>&#39;o&#39;</span>, <span class=pl-s>&#39;s&#39;</span>, <span class=pl-s>&#39;c&#39;</span>, <span class=pl-s>&#39;3&#39;</span>, <span class=pl-s>&#39;1&#39;</span>, <span class=pl-s>&#39;0&#39;</span>]</td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>bool3</span> <span class=pl-c1>=</span> <span class=pl-s1>actual3</span> <span class=pl-c1>==</span> <span class=pl-s1>expected3</span></td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">        <span class=pl-en>print</span>(<span class=pl-s>&quot;Test 3 is &quot;</span> <span class=pl-c1>+</span> <span class=pl-en>str</span>(<span class=pl-s1>bool3</span>))</td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">        </td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>totalbool</span> <span class=pl-c1>=</span> <span class=pl-s1>bool1</span> <span class=pl-c1>&amp;</span> <span class=pl-s1>bool2</span> <span class=pl-c1>&amp;</span> <span class=pl-s1>bool3</span></td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-en>assertTrue</span>(<span class=pl-s1>totalbool</span>)</td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line"><span class=pl-k>if</span> <span class=pl-s1>__name__</span> <span class=pl-c1>==</span> <span class=pl-s>&#39;__main__&#39;</span>:</td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>unittest</span>.<span class=pl-en>main</span>()</td>
+      </tr>
+</table>
 
-  2. The second method, “nltk.word_tokenize”, is used to cleanup and break the whole text into small parts, such as words.
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 color-bg-primary border color-border-tertiary rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/shiro102/Chat-bot-team-20/blame/3d2b38d0afadfab5357eb141ff582ab1a13d51a7/remove_noise.py">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/shiro102/Chat-bot-team-20/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
 
-  3. The third method, “nltk.pos_tag”, tags every word as “Proper Nouns”, “Verb”, “Adjectives” etc. It is used for one of the new features we added - POS tagging - and it works in the similar pattern as Stanford Corenlp’s POS tagging. We will explain Stanford Corenlp later.
-
-  4. The fourth method, “nltk.corpus”, is used to access “wordnet” which helps us to implement a new feature that we added to this code - synonym recognition. 
-</code></pre>
-</li>
-<li>
-<p>Class “json” is the data file which predicts the user inputs and gives responses. It is used for importing and loading data, preprocessing data, and getting random responses for the GUI. Json is also used implicitly throughout the program as the fundamental data in chatbot - conversation patterns.</p>
-</li>
-<li>
-<p>Class “pickle” is to make the data operations more efficient by removing object hierarchy when dumping our data or when loading our data from the dataset as it converts/treats the data as a single stream. Pickle is used throughout the stages except the data importing stage and the GUI development stage. It was also used to save a model for one of the new features that we added to this code - sentiment analysis.</p>
-</li>
-<li>
-<p>Class “numpy” is to increase the efficiency of the operation of lists in python. It is used in 2 stages - “creating data for training and testing” and “predicting classes for GUI”.</p>
-</li>
-<li>
-<p>Class “keras'' is to build and import the deep neural network model for the trained data. It is used in the stages of building and importing the model to GUI.</p>
-</li>
-<li>
-<p>Class “tkinter” is used to develop a graphical user interface by powerful libraries and functions within the class. It is used to develop the final GUI.</p>
-</li>
-<li>
-<p>Class “Wikipedia” is used to initiate online searches on Wikipedia in real time. It is an additional feature for our chatbot that functions when the chatbot doesn’t recognize a “Proper Noun” that is found by one of the new features we added - POS tagging.</p>
-</li>
-<li>
-<p>Class “Stanford Corenlp” is a service for natural language processing. Instead of creating a wrapper ourselves, we used a wrapper for this class called stanfordcorenlp. The link is put under the reference list at the end of the README file.</p>
-</li>
-<li>
-<p>“Sentimental Analyser” is a different python file created to help us with Sentiment Analysis. We create a naïve bayes model to decide between “Negative” and “Positive” Sentences. This model is used to analyze how users react to it.</p>
-</li>
-<li>
-<p>“GUI” is a class that is used to initialize everything related to our Graphical User Interface such as images, pages, etc.</p>
-</li>
-<li>
-<p>Class “Home” is the class for our home page in the Graphical User Interface and it contains all features present on that page.</p>
-</li>
-<li>
-<p>Class “Recent”, is used to record and store recent conversation dialogue in our recent conversation page in the Graphical User Interface. It contains all features present on that page.</p>
-</li>
-</ul>
-<br>
-<h2><a id="user-content-data-flow-diagrams-dfd" class="anchor" aria-hidden="true" href="#data-flow-diagrams-dfd"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Data Flow Diagrams (DFD)</h2>
-<ul>
-<li>
-<p>Level 0:</p>
-<ul>
-<li>
-<p>Image: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/eab7e63d366dc5d55ffa6069a447544c046340ab3b0dbf4d57f0c3d1fc49d460/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353136333033353832323931353631342f4c6576656c5f302e706e67"><img src="https://camo.githubusercontent.com/eab7e63d366dc5d55ffa6069a447544c046340ab3b0dbf4d57f0c3d1fc49d460/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353136333033353832323931353631342f4c6576656c5f302e706e67" alt="Level-0 DFD" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/825163035822915614/Level_0.png" style="max-width:100%;"></a></p>
-</li>
-<li>
-<p>Explain: This is our level 0 DFD, as you can see we have two entities namely, the user that is using the chatbot and the developers, which would be our entire team. The way the developers interact with the chatbot is by implementing new features fixing any bugs etc.</p>
-</li>
-</ul>
-</li>
-<li>
-<p>Level 1:</p>
-<ul>
-<li>
-<p>Image: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/085f954297f5a5906aa96a0328e470cd327a90acbe867ffeade0b961b5eeebb9/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832343737363235373333373033323736342f4446445f4c6576656c5f312e6a7065673f77696474683d393432266865696768743d373138"><img src="https://camo.githubusercontent.com/085f954297f5a5906aa96a0328e470cd327a90acbe867ffeade0b961b5eeebb9/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832343737363235373333373033323736342f4446445f4c6576656c5f312e6a7065673f77696474683d393432266865696768743d373138" alt="Level-1 DFD" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/824776257337032764/DFD_Level_1.jpeg?width=942&amp;height=718" style="max-width:100%;"></a></p>
-</li>
-<li>
-<p>Explain: This right here is our level 1 DFD. Like the level 0 DFD we still have our developer and user as our entities. We have our synonym recognition, POS tagging and sentiment analysis as our processes. Our synonym recognition process works on the intents that is already in the dataset. Whereas the POS and sentimental works when only when the user has typed something on the UI and the bot prepares its response by picking required response from the dataset which is symbolized by the datastore at the bottom. We have another datastore that stores the conversation log named “conversation log”, the option to store this conversation comes from the UI.</p>
-</li>
-</ul>
-</li>
-</ul>
-<br>
-<h2><a id="user-content-a-list-of-5-features-that-can-be-shared-to-others-as-api" class="anchor" aria-hidden="true" href="#a-list-of-5-features-that-can-be-shared-to-others-as-api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>A List of 5 features that can be shared to others as API</h2>
-<ul>
-<li>
-<p>POS Tagging: includes the ability to searching on wikipedia and give responses based on that.</p>
-</li>
-<li>
-<p>Python file "SentimentalAnalyzer": a file that implements sentiment analysis</p>
-</li>
-<li>
-<p>Our chat bot: an application for others to view and modify.</p>
-</li>
-<li>
-<p>The method "remove_noise": removes all unnecessary words from a sentence</p>
-</li>
-<li>
-<p>Our Graphical User Interface</p>
-</li>
-</ul>
-<br>
-<h2><a id="user-content-features" class="anchor" aria-hidden="true" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Features:</h2>
-<ul>
-<li>
-<p>Synonym recognition</p>
-<ul>
-<li>
-<p>Function: It identifies synonyms within sentences and give corresponding answers. It allows users to make inputs more diversified and give correct answers at the same time</p>
-</li>
-<li>
-<p>Snippet: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/4f0ac2ba04267faaee5e6a789d364d0509a43843d8d565e1008140dd96947ab6/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353037373532323931363034383938362f53637265656e5f53686f745f323032312d30332d32365f61745f31312e34322e35315f414d2e706e67"><img src="https://camo.githubusercontent.com/4f0ac2ba04267faaee5e6a789d364d0509a43843d8d565e1008140dd96947ab6/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353037373532323931363034383938362f53637265656e5f53686f745f323032312d30332d32365f61745f31312e34322e35315f414d2e706e67" alt="Synonym Recognition" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/825077522916048986/Screen_Shot_2021-03-26_at_11.42.51_AM.png" style="max-width:100%;"></a></p>
-</li>
-</ul>
-</li>
-<li>
-<p>Sentiment analysis</p>
-<ul>
-<li>
-<p>Function: It recognizes user input that contains positive, negative, or neutral emotions and give corresponding answers without us having to code. It makes dialogue turns more lively and realistic.</p>
-</li>
-<li>
-<p>Snippet: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/61acb8ba60bd4872d6086f6012a5ff29f76f788d1c96f637fe2d01c46292e31e/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837383239373938393534363030342f756e6b6e6f776e2e706e67"><img src="https://camo.githubusercontent.com/61acb8ba60bd4872d6086f6012a5ff29f76f788d1c96f637fe2d01c46292e31e/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837383239373938393534363030342f756e6b6e6f776e2e706e67" alt="Sentiment Analysis" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/823878297989546004/unknown.png" style="max-width:100%;"></a></p>
-</li>
-</ul>
-</li>
-<li>
-<p>POS tagging</p>
-<ul>
-<li>
-<p>Function: It gets the information about Proper Nouns that our bot doesn't know and searching them real time on wikipedia. With this feature, our chatbot is able to answer topics that are outside of our designed topic and the users might get more satisfaction throughout conversations.</p>
-</li>
-<li>
-<p>Snippet: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/fc3de93c3127ee5c23cab1adfc23754b1e2817ec136cac3ed56d7a603ce03d29/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837383739393335353637343632342f756e6b6e6f776e2e706e67"><img src="https://camo.githubusercontent.com/fc3de93c3127ee5c23cab1adfc23754b1e2817ec136cac3ed56d7a603ce03d29/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837383739393335353637343632342f756e6b6e6f776e2e706e67" alt="POS Tagging" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/823878799355674624/unknown.png" style="max-width:100%;"></a></p>
-</li>
-</ul>
-</li>
-<li>
-<p>Recent Conversation Page</p>
-<ul>
-<li>
-<p>Function: It saves dialogue information everytime our users say "bye" or close the app. With this feature, our users are able to check the dialogue history which is convenient.</p>
-</li>
-<li>
-<p>Snippet: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/e1f55da6f69b111ef1b797cd2be192b2a538c8c73dddcc23e635cf1e3c1777e4/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837393231363532353334343736382f756e6b6e6f776e2e706e67"><img src="https://camo.githubusercontent.com/e1f55da6f69b111ef1b797cd2be192b2a538c8c73dddcc23e635cf1e3c1777e4/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837393231363532353334343736382f756e6b6e6f776e2e706e67" alt="Recent Conversation Page" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/823879216525344768/unknown.png" style="max-width:100%;"></a></p>
-</li>
-</ul>
-</li>
-</ul>
-<br>
-<h2><a id="user-content-team-members-and-nick-name-used-in-the-project" class="anchor" aria-hidden="true" href="#team-members-and-nick-name-used-in-the-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Team Members and nick name used in the project:</h2>
-<ul>
-<li><strong>Khai Hung Luong (Hung)</strong>: I'm 3rd year comsci student who loves reading books !</li>
-<li><strong>Anshul Dhariwal (Anshul)</strong>: I am 3rd year COSC student and loves anything that is interesting to do!!</li>
-<li><strong>Jayant Puri (Jayant)</strong>: I'm a 3rd year COSC student who loves watching anime!</li>
-<li><strong>Sirus Wang (Sirus)</strong>: I'm a 3rd year COSC student who loves taking photos!</li>
-<li><strong>Shaohua Jiang (Joseph)</strong>: I'm a 3rd year math student who loves snowboarding!</li>
-</ul>
-<br>
-<h2><a id="user-content-references" class="anchor" aria-hidden="true" href="#references"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>References</h2>
-<p>Here is the link of an open-source program that helps us build our chatbot
-<a href="https://data-flair.training/blogs/python-chatbot-project/" rel="nofollow">https://data-flair.training/blogs/python-chatbot-project/</a></p>
-<p>Here is the link of stanfordcorenlp which is a Python wrapper for Stanford CoreNLP.
-<a href="https://github.com/Lynten/stanford-corenlp">https://github.com/Lynten/stanford-corenlp</a></p>
-</article>
   </div>
 
 
@@ -1522,10 +1700,10 @@ Link for the second live demo:
      hidden
      data-tagsearch-url="/shiro102/Chat-bot-team-20/find-definition"
      data-tagsearch-ref="main"
-     data-tagsearch-path="README.md"
-     data-tagsearch-lang="Markdown"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:341125886,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}"
-     data-hydro-click-hmac="5ffeacd8ba1a51e9bdeb94d450d958ad7f4a390e89919fae577e46c9de4c7b83">
+     data-tagsearch-path="remove_noise.py"
+     data-tagsearch-lang="Python"
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:341125886,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/remove_noise.py&quot;,&quot;user_id&quot;:31243905}}"
+     data-hydro-click-hmac="0e788bff64de970a6153d728352d0762f843c24d67615443a3bf3c323df0ccba">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>

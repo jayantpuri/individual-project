@@ -51,7 +51,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Chat-bot-team-20/README.md at main · shiro102/Chat-bot-team-20</title>
+  <title>Chat-bot-team-20/SDLC, WBS and Gantt chart.md at main · shiro102/Chat-bot-team-20</title>
     <meta name="description" content="Contribute to shiro102/Chat-bot-team-20 development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -65,11 +65,11 @@
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/31243905/ws?session=eyJ2IjoiVjMiLCJ1IjozMTI0MzkwNSwicyI6NjYzMzQyODQ5LCJjIjoyOTYxOTU0NzQyLCJ0IjoxNjE4MzMyOTA0fQ==--e3d93fb14cdc23a53d3fe348f2897c4e3988c253807cb9d064a51aa05aba1aa5" data-refresh-url="/_alive" data-session-id="7733d042392b9158269a890a7b212e46f7b2e1499323840a232c52dbcb85c950">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/31243905/ws?session=eyJ2IjoiVjMiLCJ1IjozMTI0MzkwNSwicyI6NjYzMzQyODQ5LCJjIjoyODQ4MjgxMDQ4LCJ0IjoxNjE4MzMyOTEwfQ==--e1d7c67b4a9ce40155109a68555873ed1d25f43146be0c3fe18dab54886137df" data-refresh-url="/_alive" data-session-id="7733d042392b9158269a890a7b212e46f7b2e1499323840a232c52dbcb85c950">
     <link rel="shared-web-socket-src" href="/socket-worker-3f088aa2.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="06C5:276C:4ABDAD:516D8C:6075CCE0" data-pjax-transient="true" /><meta name="html-safe-nonce" content="d29fbb9782cba52f82cdba784b995f4f666a602d0e927e5125fbef901b7acd4a" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9zaGlybzEwMi9DaGF0LWJvdC10ZWFtLTIwIiwicmVxdWVzdF9pZCI6IjA2QzU6Mjc2Qzo0QUJEQUQ6NTE2RDhDOjYwNzVDQ0UwIiwidmlzaXRvcl9pZCI6IjI0MTA4MDAxNjMzODMwNzkzMCIsInJlZ2lvbl9lZGdlIjoiYXAtc291dGgtMSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="19b0036ea22d18de78cf1f20d01cd4a14cbae81c69030d7b3ddbbb3f9edcda2b" data-pjax-transient="true" />
+  <meta name="request-id" content="06C5:276C:4ABF37:516F26:6075CCE7" data-pjax-transient="true" /><meta name="html-safe-nonce" content="d29fbb9782cba52f82cdba784b995f4f666a602d0e927e5125fbef901b7acd4a" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9zaGlybzEwMi9DaGF0LWJvdC10ZWFtLTIwIiwicmVxdWVzdF9pZCI6IjA2QzU6Mjc2Qzo0QUJGMzc6NTE2RjI2OjYwNzVDQ0U3IiwidmlzaXRvcl9pZCI6IjI0MTA4MDAxNjMzODMwNzkzMCIsInJlZ2lvbl9lZGdlIjoiYXAtc291dGgtMSIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="c73d6b29fed554cff30a933ba3e6e7d10710e7b8df1a4f110c8015b66ad7adf4" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:341125886" data-pjax-transient>
 
@@ -108,7 +108,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="NmRmNGVhNGJkMjI1MjU4ZTczYTVjNzBlOTJjMmI4Mjc0ZGVmZjE3MzI5YmM3YjkxMWVlZDA2N2I0YWMwNGJmMXx7InJlbW90ZV9hZGRyZXNzIjoiMTA2LjE5My4yMDkuMTE3IiwicmVxdWVzdF9pZCI6IjA2QzU6Mjc2Qzo0QUJEQUQ6NTE2RDhDOjYwNzVDQ0UwIiwidGltZXN0YW1wIjoxNjE4MzMyOTA0LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="ZWQwMDM3ZDgzNWE2OWU1M2JjOTdhN2JlNGI2ODJmY2E0Y2YyNTI5MTA0NzM2NjBkZGE4MjJmZjRiMTI2ZGIyNnx7InJlbW90ZV9hZGRyZXNzIjoiMTA2LjE5My4yMDkuMTE3IiwicmVxdWVzdF9pZCI6IjA2QzU6Mjc2Qzo0QUJGMzc6NTE2RjI2OjYwNzVDQ0U3IiwidGltZXN0YW1wIjoxNjE4MzMyOTEwLCJob3N0IjoiZ2l0aHViLmNvbSJ9">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,JS_HTTP_CACHE_HEADERS,AUTOCOMPLETE_EMOJIS_IN_MARKDOWN_EDITOR">
 
@@ -122,7 +122,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/shiro102/Chat-bot-team-20/blob/main/SDLC%2C%20WBS%20and%20Gantt%20chart.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -196,7 +196,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="WKl+DkUb7ucn+1cIpUg5oenFNMApBt8ZAo5LgmjM5NAm5g2yaTfxNxoeIG43eTwU+fyedQJwoGHXaHciEejKug==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="Rly5Kpd52visTUAON+j2PN6+2jvtidmD3vPrzN6Gnl84E8qWu1XFKJGoN2il2fOJzodwjsb/pvsLFddsp6KwNQ==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -375,7 +375,7 @@
     <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:workspaces context:user" data-selected-links="/codespaces /codespaces" href="/codespaces">
       Codespaces
 </a>
-      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;jayantpuri&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="483bb5ac1182efb6346964236fa46082234d82540a70f42a24b62fed4379ba9b" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
+      <a class="js-selected-navigation-item Header-link d-block d-md-none py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" data-ga-click="Header, click, Nav menu - item:Sponsors" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.button_click&quot;,&quot;payload&quot;:{&quot;button&quot;:&quot;HEADER_SPONSORS_DASHBOARD&quot;,&quot;sponsorable_login&quot;:&quot;jayantpuri&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/SDLC%2C%20WBS%20and%20Gantt%20chart.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="56eac7ba78fcd8e30df24208465822ac001068451084f487a37e2909a29a6561" data-selected-links=" /sponsors/accounts" href="/sponsors/accounts">Sponsors</a>
 
     <a class="Header-link d-block d-md-none mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15" href="/settings/profile">
       Settings
@@ -384,7 +384,7 @@
       <img class="avatar avatar-user" src="https://avatars.githubusercontent.com/u/31243905?s=40&amp;v=4" width="20" height="20" alt="@jayantpuri" />
       jayantpuri
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="diCkSgZIPz3BtMo8LT5/5NqentDq4TgW9URtvdOzRpUWaYexzPFA0ex9xvXNjETAEstmGU+PzYcKdSfqZj8lmg==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="CaCugLIFp5EkCrpAGV8oonmg2pk9m2pAD3MIk5XnrVJp6Y17eLzYfQnDton57ROGsfUiUJj1n9HwQkLEIGvOXQ==" />
       <button type="submit" class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15 d-md-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -408,7 +408,7 @@
       <notification-indicator
         class="js-socket-channel"
         data-test-selector="notifications-indicator"
-        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MzEyNDM5MDUiLCJ0IjoxNjE4MzMyOTA0fQ==--782f4213026f828ef43a20cc136e9555579fe9cecaa01b374885028ca6437e7e">
+        data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MzEyNDM5MDUiLCJ0IjoxNjE4MzMyOTEwfQ==--ded6baf058a774a7dbdd8da8f5c1ea08721a819f990312b2e1402ee13f663900">
         <a href="/notifications"
           class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
           
@@ -578,7 +578,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="5105a0b9bab8c464c7d31046a78bedfb7ef768c6c6febb6929b3caae16c283b3" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
+      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/SDLC%2C%20WBS%20and%20Gantt%20chart.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="26a94cfc8be22d9df670a39fe57aae4043b3a9785270976bca50b0708c6cdb00" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
           <span data-menu-button>
             <span
               hidden
@@ -622,7 +622,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="4kFbsy/cMumVHsvy+Ef4iqPYqoJoGyMuh3zWhFEgbFS9Qci7gaSuyDQePnEgVXV64ZQ0dJbbGRzVQfOTJQ7LdQ==" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="dIyR1CyG3OjxUPEuZ1XfwjtETeQi6Aow2j3XZV8+oXYrjALcgv5AyVBQBK2/R1IyeQjTEtwoMAKIAPJyKxAGVw==" />
 
                 <input type="hidden" name="repository_id" value="341125886">
 
@@ -724,7 +724,7 @@
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="/Jhb/5DwrDivYJE/enw7yCoBsgSx0NQAsSGK3kxClVejmMj3PogwGQ5gZLyibrY4aE0s8k8Q7jLjHK/JOGwydg==" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DFV9qXPklqZpzEmCHOmUKsFQYzAyeygx73dJFoJBYVxTVe6h3ZwKh8jMvAHE+xnagxz9xsy7EgO9SmwB9m/GfQ==" />
 
               <input type="hidden" name="repository_id" value="341125886">
 
@@ -862,9 +862,9 @@
 
   <li>
         <div class="d-block js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/shiro102/Chat-bot-team-20/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="8nWthig6526RbA+Z/3YNmrA1TRhSeg4lpeNRXLZbs6TVZ0guOYqyr9uM9ot3LOgT7wbBzKAFQf3jpvVSWrGlhg==" />
+    <form class="starred js-social-form" action="/shiro102/Chat-bot-team-20/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="SbymZQluMAKtAeq+BQdrF4vFiy27tz4xBrtNk09lvUBurkPNGN5lw+fhE6yNXY6e1PYH+UnIcelA/umdo4+rYg==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar shiro102/Chat-bot-team-20" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="cc303af1249d92059bcee2a93cef2df55ee4703ce2f0d18810e205b6606e5a32" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar shiro102/Chat-bot-team-20" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/SDLC%2C%20WBS%20and%20Gantt%20chart.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="ca79eaaf0003377d889ddc10a1d488b2bbb46723b474d6cfcd403a8dfc588063" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
         <span>
           Unstar
 </span></button>        <a class="social-count js-social-count" href="/shiro102/Chat-bot-team-20/stargazers"
@@ -872,9 +872,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/shiro102/Chat-bot-team-20/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="+Hxj8BzoYfKgtjoKiWbjyIwUnHMe982aTPoTxWBRZ3fX55SWUe3KlI/wMf9wo61EPVNPrTzISVPeXhFW7FR6Rg==" />
+    <form class="unstarred js-social-form" action="/shiro102/Chat-bot-team-20/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="g7s9lsHQvAN+47Vu81kMz2pwZsv9zT49BLF/5y0gXRisIMrwjNUXZVGlvpsKnEJD2ze1Fd/yuvSWFX10oSVAKQ==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star shiro102/Chat-bot-team-20" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="bd3feb079394fb229de5d2ba8e550b51eeb4cd79e9892daa79cdd6a523458ecd" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star shiro102/Chat-bot-team-20" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/SDLC%2C%20WBS%20and%20Gantt%20chart.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="8ea06f4a528aaeb0d584bc597e697d08115b027c94716255d7f66a0062b42485" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
         <span>
           Star
 </span></button>        <a class="social-count js-social-count" href="/shiro102/Chat-bot-team-20/stargazers"
@@ -891,7 +891,7 @@
                       <summary
                     class="btn btn-sm btn-with-count"
                     title="Fork your own copy of shiro102/Chat-bot-team-20 to your account"
-                    data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="a59fea32c0fbb4a19cd715151e9611deb3784a308a2d210b6ecea0a31257f56b" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork">
+                    data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/SDLC%2C%20WBS%20and%20Gantt%20chart.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="359f1fb4570eb616748df1cd3fb80a56eb3c4ef7cfd94e8ace67f0ac1112f204" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork">
                     <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
                     Fork
                   </summary>
@@ -1066,9 +1066,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/shiro102/Chat-bot-team-20/blob/3d2b38d0afadfab5357eb141ff582ab1a13d51a7/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/shiro102/Chat-bot-team-20/blob/3d2b38d0afadfab5357eb141ff582ab1a13d51a7/SDLC%2C%20WBS%20and%20Gantt%20chart.md">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:71b8070deb158d304807b68eddd81356b44ca32f38a05ca2af74550feb6e753b -->
+    <!-- blob contrib key: blob_contributors:v22:9dc39a3120e3c0d76ad9212f1d533be0e6a9c0d5c2202d8b72c12376c1c4641d -->
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -1128,10 +1128,10 @@
           >
 
             <template data-target="ref-selector.noMatchTemplate">
-                <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/shiro102/Chat-bot-team-20/branches" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="YLUHXTfgNbXEIRkhEWKme94vI+HQZhisbcqRqdn5wVDQ7e0Mk+gIPzbEEYyBnE6m/HuFn95Yzo5a0cZ+9nwOzA==" />
+                <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/shiro102/Chat-bot-team-20/branches" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="g40Hd1aZuu695G6xVhEIvzf/EZKKj/1GYR+8NtCPJakz1e0m8pGHZE8BZhzG7+BiFau37ISxK2RWBOvh/wrqNQ==" />
                   <input type="hidden" name="name" value="{{ refName }}">
                   <input type="hidden" name="branch"  value="main">
-                  <input type="hidden" name="path_binary" value="UkVBRE1FLm1k">
+                  <input type="hidden" name="path_binary" value="U0RMQywgV0JTIGFuZCBHYW50dCBjaGFydC5tZA==">
 
                   <button class="SelectMenu-item break-word" type="submit" role="menuitem" data-index="{{ index }}">
                     <svg class="octicon octicon-git-branch SelectMenu-icon flex-self-baseline" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path></svg>
@@ -1154,7 +1154,7 @@
             </div>
 
             <template data-target="ref-selector.itemTemplate">
-              <a href="https://github.com/shiro102/Chat-bot-team-20/blob/{{ urlEncodedRefName }}/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+              <a href="https://github.com/shiro102/Chat-bot-team-20/blob/{{ urlEncodedRefName }}/SDLC,%20WBS%20and%20Gantt%20chart.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
                 <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
                 <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
                 <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span> 
@@ -1186,7 +1186,7 @@
             </template>
 
             <template data-target="ref-selector.itemTemplate">
-              <a href="https://github.com/shiro102/Chat-bot-team-20/blob/{{ urlEncodedRefName }}/README.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
+              <a href="https://github.com/shiro102/Chat-bot-team-20/blob/{{ urlEncodedRefName }}/SDLC,%20WBS%20and%20Gantt%20chart.md" class="SelectMenu-item" role="menuitemradio" rel="nofollow" aria-checked="{{ isCurrent }}" data-index="{{ index }}">
                 <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
                 <span class="flex-1 css-truncate css-truncate-overflow {{ isFilteringClass }}">{{ refName }}</span>
                 <span hidden="{{ isNotDefault }}" class="Label Label--secondary flex-self-start">default</span>
@@ -1213,7 +1213,7 @@
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto flex-self-center min-width-0 text-normal mx-2 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/shiro102/Chat-bot-team-20"><span>Chat-bot-team-20</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/shiro102/Chat-bot-team-20"><span>Chat-bot-team-20</span></a></span></span><span class="separator">/</span><strong class="final-path">SDLC, WBS and Gantt chart.md</strong>
       </h2>
       <a href="/shiro102/Chat-bot-team-20/find/main"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1227,7 +1227,7 @@
 </summary>
   <div>          <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="f20fd47934290016d0854a8f9a0ef583a72fbb99925b610ca485ea23e6025a0b" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/shiro102/Chat-bot-team-20/find/main">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:341125886,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/SDLC%2C%20WBS%20and%20Gantt%20chart.md&quot;,&quot;user_id&quot;:31243905}}" data-hydro-click-hmac="1eced5483bf3001da6a78c3648e0d5db47d19c947c15984a7bddea8452b8213d" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/shiro102/Chat-bot-team-20/find/main">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small color-text-secondary" aria-hidden="true">T</span>
 </a>            </li>
@@ -1241,12 +1241,12 @@
             </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy value="README.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+              <clipboard-copy value="SDLC, WBS and Gantt chart.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
                 Copy path
               </clipboard-copy>
             </li>
             <li>
-              <clipboard-copy value="https://github.com/shiro102/Chat-bot-team-20/blob/3d2b38d0afadfab5357eb141ff582ab1a13d51a7/README.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
+              <clipboard-copy value="https://github.com/shiro102/Chat-bot-team-20/blob/3d2b38d0afadfab5357eb141ff582ab1a13d51a7/SDLC,%20WBS%20and%20Gantt%20chart.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details" >
                 <span class="d-flex flex-items-baseline">
                   <span class="flex-auto">Copy permalink</span>
                 </span>
@@ -1259,7 +1259,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      <include-fragment src="/shiro102/Chat-bot-team-20/contributors/main/README.md" class="commit-loader">
+      <include-fragment src="/shiro102/Chat-bot-team-20/contributors/main/SDLC,%20WBS%20and%20Gantt%20chart.md" class="commit-loader">
         <div class="Box-header Box-header--blue d-flex flex-items-center">
           <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
           <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
@@ -1289,16 +1289,16 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      141 lines (78 sloc)
+      493 lines (330 sloc)
       <span class="file-info-divider"></span>
-    9.44 KB
+    14.3 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a href="/shiro102/Chat-bot-team-20/raw/main/README.md" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
-        <a href="/shiro102/Chat-bot-team-20/blame/main/README.md" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
+      <a href="/shiro102/Chat-bot-team-20/raw/main/SDLC%2C%20WBS%20and%20Gantt%20chart.md" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
+        <a href="/shiro102/Chat-bot-team-20/blame/main/SDLC%2C%20WBS%20and%20Gantt%20chart.md" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
     </div>
 
     <div>
@@ -1310,13 +1310,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/shiro102/Chat-bot-team-20/edit/main/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qJTavfD14mfwB+o6hKAVPfadbKoiItBPsDMW2QeESQi8nt1gbEhBzII1YDWThla2awRCZ/GbbbpTOe9H4Olmzg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/shiro102/Chat-bot-team-20/edit/main/SDLC,%20WBS%20and%20Gantt%20chart.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="9eXp70pYoBTAxxT97XklZowhi/72szAK+EuYD9RXPlUFPto/MyccdJTsXyw5j1e+InuRaLmqCmGL94IB4mjA7w==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit this file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/shiro102/Chat-bot-team-20/delete/main/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="nsg0hC7QCt0LKnqfZAwoDXWIoRqst4xSb9qNRkTitHrtGv59UfwmKqpp8l7j+NNYWeT/oiDWUIakUooQv3QBtg==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/shiro102/Chat-bot-team-20/delete/main/SDLC,%20WBS%20and%20Gantt%20chart.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Xcr+nLqrijDmTf2allLNMJlFRnfbXfPl21EQWrFMDB47I53aZiaKQkizIYW4MREbpg1c0gVqfBGyoaUHrrdaZw==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg class="octicon octicon-trash" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
@@ -1328,179 +1328,385 @@
 
       <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
     <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-chat-bot-team-20" class="anchor" aria-hidden="true" href="#chat-bot-team-20"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Chat-bot-team-20</h1>
-<h1><a id="user-content-link-for-the-first-live-demohttpsdrivegooglecomfiled1r-z9toquw9xpvbaxjcbn5r_dbihx0qfvviewlink-for-the-second-live-demohttpsdrivegooglecomfiled1_dkay2ugbuemmk6ment-rrq6qot9wohyview" class="anchor" aria-hidden="true" href="#link-for-the-first-live-demohttpsdrivegooglecomfiled1r-z9toquw9xpvbaxjcbn5r_dbihx0qfvviewlink-for-the-second-live-demohttpsdrivegooglecomfiled1_dkay2ugbuemmk6ment-rrq6qot9wohyview"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Link for the first live demo:
-<a href="https://drive.google.com/file/d/1r-Z9tOQUw9xpVBAXJCbN5R_DBIHX0QFv/view" rel="nofollow">https://drive.google.com/file/d/1r-Z9tOQUw9xpVBAXJCbN5R_DBIHX0QFv/view</a>
+<p>=======</p>
+<h2><a id="user-content-about-our-project" class="anchor" aria-hidden="true" href="#about-our-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>About Our Project:</h2>
 <br>
-Link for the second live demo:
-<a href="https://drive.google.com/file/d/1_DKAy2UgbUeMMk6meNT-RrQ6qOt9WOhY/view" rel="nofollow">https://drive.google.com/file/d/1_DKAy2UgbUeMMk6meNT-RrQ6qOt9WOhY/view</a></h1>
-<h1><a id="user-content-github-url-httpsgithubcomshiro102chat-bot-team-20" class="anchor" aria-hidden="true" href="#github-url-httpsgithubcomshiro102chat-bot-team-20"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Github URL: <br><a href="https://github.com/shiro102/Chat-bot-team-20">https://github.com/shiro102/Chat-bot-team-20</a></h1>
-<h2><a id="user-content-describe-your-topicinterest-context-of-the-chatbot-who-will-use-it-etc-" class="anchor" aria-hidden="true" href="#describe-your-topicinterest-context-of-the-chatbot-who-will-use-it-etc-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Describe your topic/interest (context of the chatbot, who will use it, etc. )</h2>
-<p>In this project, we developed an interactive conversational agent that responds to user input. In response to the user, the agent generates sentences as output. There are 2 types of target users. The first type of target users includes anime and manga lovers who would love to talk about them and know more about it. The second type of target users includes anyone who are interested in Japanese culture. There are 2 types of topics as well. The first type of topic of the conversation is about the general information and personal preference of anime. The second type of topic of the conversation is about the general information of Japan such as people, religion, food, samurai and so on.</p>
+<p>Our team chose incremental development as our SDLC model, generated a list of tasks based on each phase of the model, allocated time and manpower to each task based on duration and schedule with a WBS and a Gantt chart as explanation. Then, our team started planning for development. The role of the agent is Japan and anime expert and users are people who are interested in Japanese culture and anime and would love to talk and know more about Japanese culture and anime. The topics of the conversation are the general information and personal preferences of anime and the information of Japan such as people, religion, food, samurai and so on. The GitHub page of our project is this: <a href="https://github.com/shiro102/Chat-bot-team-20">https://github.com/shiro102/Chat-bot-team-20</a></p>
 <br>
-<h2><a id="user-content-how-the-code-works" class="anchor" aria-hidden="true" href="#how-the-code-works"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>How the code works</h2>
-<h3><a id="user-content-how-to-run-it" class="anchor" aria-hidden="true" href="#how-to-run-it"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>How to run it:</strong></h3>
-<p>To compile the code, we run in terminal these 2 lines of codes - “python train.py” and “python chatbot.py”. The first code is to train the model so that the GUI might function properlyl. The second code is to run the app. Further instructions are in the README file in the CODE folder.</p>
-<h3><a id="user-content-stages-of-development" class="anchor" aria-hidden="true" href="#stages-of-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>Stages of development:</strong></h3>
-<p>There are five stages of the development for the code: data importing and loading, data preprocessing, data training and testing, model building, and GUI developing.</p>
-<h3><a id="user-content-how-the-classes-are-organized" class="anchor" aria-hidden="true" href="#how-the-classes-are-organized"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>How the classes are organized:</strong></h3>
-<p>There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tkinter, Wikipedia, Stanford Corenlp, Sentimental Analyser, GUI, Home, and Recent.</p>
-<ul>
-<li>
-<p>Class “nltk” contains a group of libraries which provide statistical processing for English Language and is commonly used for Natural Language Processing. It is used throughout all the developing stages except the model building stage and the GUI development stage.</p>
-</li>
-<li>
-<p>There are 4 critical methods within this class: “nltk.stem.wordnetlemmatizer”, “nltk.word_tokenize”, “nltk.pos_tag” (instead of Stanfordnlp’s POS tagging to simplify the implementation) and “nltk.corpus”</p>
-<pre><code>  1. The first method, “nltk.stem.wordnetlemmatizer”, converts a word into its lemma form, groups different words to be analyzed as a single item based on similar meaning, and then creates a pickle file to store the Python objects which we will use while predicting. 
+<h2><a id="user-content-the-software-development-life-cycles" class="anchor" aria-hidden="true" href="#the-software-development-life-cycles"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>The Software Development Life Cycles:</h2>
+<br>
+<h3><a id="user-content-our-choice-incremental-development" class="anchor" aria-hidden="true" href="#our-choice-incremental-development"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>Our Choice</strong>: Incremental Development</h3>
+<br>
+<h3><a id="user-content-rationale" class="anchor" aria-hidden="true" href="#rationale"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a><strong>Rationale</strong>:</h3>
+<p><br>We choosed Incremental Development as our software development life cycle. Since more assignments about this project are expected to be published, some changes to this project might be required. As a result, we think that a model that is able to accommodate changes is most suitable for this project. Incremental development requires multiple versions of the project to be published frequently, so the model allows executable products to be generated earlier, and further modification can be done in later versions. In this way, modification is encouraged and the possibility of a complete failure of the product is reduced. The restriction of this model is that to rectify a task done in previous version requires modifications in all units and is time-consuming.</p>
+<br>
+<h3><a id="user-content-process" class="anchor" aria-hidden="true" href="#process"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Process:</h3>
+<pre><code> 1) Analyze requirements and Create Tasks:
+ 	i) Choosing a platform to publish the application
+		a) Creating github account for each team member
+		b) Creating  team github account
+	ii) Choose a software development cycle
+ 	iii) Creating WBS and Gantt charts.
+	iv) Create Level-0 and Level-1 Data Flow Diagrams (DFDs)
 
-  2. The second method, “nltk.word_tokenize”, is used to cleanup and break the whole text into small parts, such as words.
+2) Establish design:
+	i) Choose a language and its corresponding IDE
+	ii) Choose two agents for the chatbot.
+	iii) Choose two topic for the chatbot
+	iv) Design the user interface for the chatbot
 
-  3. The third method, “nltk.pos_tag”, tags every word as “Proper Nouns”, “Verb”, “Adjectives” etc. It is used for one of the new features we added - POS tagging - and it works in the similar pattern as Stanford Corenlp’s POS tagging. We will explain Stanford Corenlp later.
+3) Implementing design:
+	i) Build the dataset for the chatbot
+	ii) Implement the user interface. 
+	iii) Implement back-end (Training the chatbot)	
+		a) Choose libraries
+		b) Implement language toolkits
+	iv) Integrate the front end and back end.
 
-  4. The fourth method, “nltk.corpus”, is used to access “wordnet” which helps us to implement a new feature that we added to this code - synonym recognition. 
+4) Testing:
+	i) Testing frequently asked questions and ambiguous questions.
+	ii) Testing and debugging language toolkits.
+	iii) Testing the interactive elements
+	iv) Record errors and fix them.
+		a) Debugging
+		b) Add code for error prevention
+		c) Supplement and complete the dataset
+
+5) Publishing application:
+	i) Establish publishing date
+	ii) Synchronize each member’s work
+	iii) Publish the application to GitHub
+ 	iv) New Presentation Video
 </code></pre>
-</li>
-<li>
-<p>Class “json” is the data file which predicts the user inputs and gives responses. It is used for importing and loading data, preprocessing data, and getting random responses for the GUI. Json is also used implicitly throughout the program as the fundamental data in chatbot - conversation patterns.</p>
-</li>
-<li>
-<p>Class “pickle” is to make the data operations more efficient by removing object hierarchy when dumping our data or when loading our data from the dataset as it converts/treats the data as a single stream. Pickle is used throughout the stages except the data importing stage and the GUI development stage. It was also used to save a model for one of the new features that we added to this code - sentiment analysis.</p>
-</li>
-<li>
-<p>Class “numpy” is to increase the efficiency of the operation of lists in python. It is used in 2 stages - “creating data for training and testing” and “predicting classes for GUI”.</p>
-</li>
-<li>
-<p>Class “keras'' is to build and import the deep neural network model for the trained data. It is used in the stages of building and importing the model to GUI.</p>
-</li>
-<li>
-<p>Class “tkinter” is used to develop a graphical user interface by powerful libraries and functions within the class. It is used to develop the final GUI.</p>
-</li>
-<li>
-<p>Class “Wikipedia” is used to initiate online searches on Wikipedia in real time. It is an additional feature for our chatbot that functions when the chatbot doesn’t recognize a “Proper Noun” that is found by one of the new features we added - POS tagging.</p>
-</li>
-<li>
-<p>Class “Stanford Corenlp” is a service for natural language processing. Instead of creating a wrapper ourselves, we used a wrapper for this class called stanfordcorenlp. The link is put under the reference list at the end of the README file.</p>
-</li>
-<li>
-<p>“Sentimental Analyser” is a different python file created to help us with Sentiment Analysis. We create a naïve bayes model to decide between “Negative” and “Positive” Sentences. This model is used to analyze how users react to it.</p>
-</li>
-<li>
-<p>“GUI” is a class that is used to initialize everything related to our Graphical User Interface such as images, pages, etc.</p>
-</li>
-<li>
-<p>Class “Home” is the class for our home page in the Graphical User Interface and it contains all features present on that page.</p>
-</li>
-<li>
-<p>Class “Recent”, is used to record and store recent conversation dialogue in our recent conversation page in the Graphical User Interface. It contains all features present on that page.</p>
-</li>
+<hr>
+<h2><a id="user-content-old-work-breakdown-structure-wbs" class="anchor" aria-hidden="true" href="#old-work-breakdown-structure-wbs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Old Work Breakdown Structure (WBS):</h2>
+<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/309bd07d25e4aa9e044bdcf6f117adaec244c74862e57e8d0c122897842f72bd/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3739383934363336323331333430383537322f3831373131343438333137323434323134322f46696e616c5f312e6a7067"><img src="https://camo.githubusercontent.com/309bd07d25e4aa9e044bdcf6f117adaec244c74862e57e8d0c122897842f72bd/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3739383934363336323331333430383537322f3831373131343438333137323434323134322f46696e616c5f312e6a7067" alt="WBS" data-canonical-src="https://cdn.discordapp.com/attachments/798946362313408572/817114483172442142/Final_1.jpg" style="max-width:100%;"></a></p>
+<h2><a id="user-content-new-work-breakdown-structure-wbs" class="anchor" aria-hidden="true" href="#new-work-breakdown-structure-wbs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>New Work Breakdown Structure (WBS):</h2>
+<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/0fc151888e3ca8c0790929cf766f41f3b8899e8d12afae7d8a80feadccf6f5e0/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353132343637323038383833343035382f46696e616c5f312e6a70673f77696474683d31373238266865696768743d353332"><img src="https://camo.githubusercontent.com/0fc151888e3ca8c0790929cf766f41f3b8899e8d12afae7d8a80feadccf6f5e0/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353132343637323038383833343035382f46696e616c5f312e6a70673f77696474683d31373238266865696768743d353332" alt="WBS" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/825124672088834058/Final_1.jpg?width=1728&amp;height=532" style="max-width:100%;"></a></p>
+<h2><a id="user-content-old-gantt-chart" class="anchor" aria-hidden="true" href="#old-gantt-chart"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Old Gantt chart:</h2>
+<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/119564fa03ec8645d16a1bbb7592d76c557537f36185aa372908446dc183e4f3/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3739383934363336323331333430383537322f3831383938363235383037363430313638342f47616e6e745f43686172745f46696e616c2e706e67"><img src="https://camo.githubusercontent.com/119564fa03ec8645d16a1bbb7592d76c557537f36185aa372908446dc183e4f3/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3739383934363336323331333430383537322f3831383938363235383037363430313638342f47616e6e745f43686172745f46696e616c2e706e67" alt="Gantt" data-canonical-src="https://cdn.discordapp.com/attachments/798946362313408572/818986258076401684/Gannt_Chart_Final.png" style="max-width:100%;"></a></p>
+<h2><a id="user-content-new-gantt-chart" class="anchor" aria-hidden="true" href="#new-gantt-chart"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>New Gantt chart:</h2>
+<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/e8bc54ac825444798e4cfc0f351b3de97b139a04aef20fe16e93e8bd0985a50f/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353134323531313939313235393136322f47616e6e745f43686172745f46696e616c5f325f722e706e673f77696474683d31343530266865696768743d373932"><img src="https://camo.githubusercontent.com/e8bc54ac825444798e4cfc0f351b3de97b139a04aef20fe16e93e8bd0985a50f/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353134323531313939313235393136322f47616e6e745f43686172745f46696e616c5f325f722e706e673f77696474683d31343530266865696768743d373932" alt="Gantt" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/825142511991259162/Gannt_Chart_Final_2_r.png?width=1450&amp;height=792" style="max-width:100%;"></a></p>
+<br>
+<h2><a id="user-content-insight-of-the-contributors-to-this-project" class="anchor" aria-hidden="true" href="#insight-of-the-contributors-to-this-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Insight of the contributors to this project</h2>
+<p><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/bac98ecc954197c1a71e9910bc44f7d575dcc9e0a828696ac6db47af1dd9a942/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353231363431363031333039303838362f756e6b6e6f776e2e706e673f77696474683d363230266865696768743d373931"><img src="https://camo.githubusercontent.com/bac98ecc954197c1a71e9910bc44f7d575dcc9e0a828696ac6db47af1dd9a942/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353231363431363031333039303838362f756e6b6e6f776e2e706e673f77696474683d363230266865696768743d373931" alt="Commit Branch" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/825216416013090886/unknown.png?width=620&amp;height=791" style="max-width:100%;"></a></p>
+<br>
+<h2><a id="user-content-limitations-of-the-program-submitted" class="anchor" aria-hidden="true" href="#limitations-of-the-program-submitted"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Limitations of the program submitted:</h2>
+<ul>
+<li>The biggest limitation on the chatbot is that we don’t have a dataset that is large enough. We don’t have an enterprise-level development team and the dataset would be very limited and would only be applicable to certain situations.</li>
+<li>The chatbot cannot really “understand” what the user is actually saying since overall, it’s a running algorithm.</li>
+<li>All responses are randomized, and no certain output is determined.</li>
+<li>There is no self-learning function implemented so the chatbot would not understand, or learn the user’s behavior, answers, patterns etc.</li>
+<li>Fuzzy search is not supported so misspelling would lead to totally different answers.</li>
+<li>The dialogues are not interconnected, and the chatbot would not make connections between them.</li>
+<li>Assume the user only enters valid (no spelling errors) and “understandable” (within the scope of dataset) or otherwise the chatbot would reply with a response saying it doesn't understand your questions and would try to search an unknown Proper noun on wikipedia.</li>
 </ul>
 <br>
-<h2><a id="user-content-data-flow-diagrams-dfd" class="anchor" aria-hidden="true" href="#data-flow-diagrams-dfd"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Data Flow Diagrams (DFD)</h2>
-<ul>
-<li>
-<p>Level 0:</p>
-<ul>
-<li>
-<p>Image: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/eab7e63d366dc5d55ffa6069a447544c046340ab3b0dbf4d57f0c3d1fc49d460/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353136333033353832323931353631342f4c6576656c5f302e706e67"><img src="https://camo.githubusercontent.com/eab7e63d366dc5d55ffa6069a447544c046340ab3b0dbf4d57f0c3d1fc49d460/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353136333033353832323931353631342f4c6576656c5f302e706e67" alt="Level-0 DFD" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/825163035822915614/Level_0.png" style="max-width:100%;"></a></p>
-</li>
-<li>
-<p>Explain: This is our level 0 DFD, as you can see we have two entities namely, the user that is using the chatbot and the developers, which would be our entire team. The way the developers interact with the chatbot is by implementing new features fixing any bugs etc.</p>
-</li>
-</ul>
-</li>
-<li>
-<p>Level 1:</p>
-<ul>
-<li>
-<p>Image: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/085f954297f5a5906aa96a0328e470cd327a90acbe867ffeade0b961b5eeebb9/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832343737363235373333373033323736342f4446445f4c6576656c5f312e6a7065673f77696474683d393432266865696768743d373138"><img src="https://camo.githubusercontent.com/085f954297f5a5906aa96a0328e470cd327a90acbe867ffeade0b961b5eeebb9/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832343737363235373333373033323736342f4446445f4c6576656c5f312e6a7065673f77696474683d393432266865696768743d373138" alt="Level-1 DFD" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/824776257337032764/DFD_Level_1.jpeg?width=942&amp;height=718" style="max-width:100%;"></a></p>
-</li>
-<li>
-<p>Explain: This right here is our level 1 DFD. Like the level 0 DFD we still have our developer and user as our entities. We have our synonym recognition, POS tagging and sentiment analysis as our processes. Our synonym recognition process works on the intents that is already in the dataset. Whereas the POS and sentimental works when only when the user has typed something on the UI and the bot prepares its response by picking required response from the dataset which is symbolized by the datastore at the bottom. We have another datastore that stores the conversation log named “conversation log”, the option to store this conversation comes from the UI.</p>
-</li>
-</ul>
-</li>
-</ul>
-<br>
-<h2><a id="user-content-a-list-of-5-features-that-can-be-shared-to-others-as-api" class="anchor" aria-hidden="true" href="#a-list-of-5-features-that-can-be-shared-to-others-as-api"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>A List of 5 features that can be shared to others as API</h2>
-<ul>
-<li>
-<p>POS Tagging: includes the ability to searching on wikipedia and give responses based on that.</p>
-</li>
-<li>
-<p>Python file "SentimentalAnalyzer": a file that implements sentiment analysis</p>
-</li>
-<li>
-<p>Our chat bot: an application for others to view and modify.</p>
-</li>
-<li>
-<p>The method "remove_noise": removes all unnecessary words from a sentence</p>
-</li>
-<li>
-<p>Our Graphical User Interface</p>
-</li>
-</ul>
-<br>
-<h2><a id="user-content-features" class="anchor" aria-hidden="true" href="#features"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Features:</h2>
-<ul>
-<li>
-<p>Synonym recognition</p>
-<ul>
-<li>
-<p>Function: It identifies synonyms within sentences and give corresponding answers. It allows users to make inputs more diversified and give correct answers at the same time</p>
-</li>
-<li>
-<p>Snippet: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/4f0ac2ba04267faaee5e6a789d364d0509a43843d8d565e1008140dd96947ab6/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353037373532323931363034383938362f53637265656e5f53686f745f323032312d30332d32365f61745f31312e34322e35315f414d2e706e67"><img src="https://camo.githubusercontent.com/4f0ac2ba04267faaee5e6a789d364d0509a43843d8d565e1008140dd96947ab6/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832353037373532323931363034383938362f53637265656e5f53686f745f323032312d30332d32365f61745f31312e34322e35315f414d2e706e67" alt="Synonym Recognition" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/825077522916048986/Screen_Shot_2021-03-26_at_11.42.51_AM.png" style="max-width:100%;"></a></p>
-</li>
-</ul>
-</li>
-<li>
-<p>Sentiment analysis</p>
-<ul>
-<li>
-<p>Function: It recognizes user input that contains positive, negative, or neutral emotions and give corresponding answers without us having to code. It makes dialogue turns more lively and realistic.</p>
-</li>
-<li>
-<p>Snippet: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/61acb8ba60bd4872d6086f6012a5ff29f76f788d1c96f637fe2d01c46292e31e/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837383239373938393534363030342f756e6b6e6f776e2e706e67"><img src="https://camo.githubusercontent.com/61acb8ba60bd4872d6086f6012a5ff29f76f788d1c96f637fe2d01c46292e31e/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837383239373938393534363030342f756e6b6e6f776e2e706e67" alt="Sentiment Analysis" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/823878297989546004/unknown.png" style="max-width:100%;"></a></p>
-</li>
-</ul>
-</li>
-<li>
-<p>POS tagging</p>
-<ul>
-<li>
-<p>Function: It gets the information about Proper Nouns that our bot doesn't know and searching them real time on wikipedia. With this feature, our chatbot is able to answer topics that are outside of our designed topic and the users might get more satisfaction throughout conversations.</p>
-</li>
-<li>
-<p>Snippet: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/fc3de93c3127ee5c23cab1adfc23754b1e2817ec136cac3ed56d7a603ce03d29/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837383739393335353637343632342f756e6b6e6f776e2e706e67"><img src="https://camo.githubusercontent.com/fc3de93c3127ee5c23cab1adfc23754b1e2817ec136cac3ed56d7a603ce03d29/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837383739393335353637343632342f756e6b6e6f776e2e706e67" alt="POS Tagging" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/823878799355674624/unknown.png" style="max-width:100%;"></a></p>
-</li>
-</ul>
-</li>
-<li>
-<p>Recent Conversation Page</p>
-<ul>
-<li>
-<p>Function: It saves dialogue information everytime our users say "bye" or close the app. With this feature, our users are able to check the dialogue history which is convenient.</p>
-</li>
-<li>
-<p>Snippet: <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/e1f55da6f69b111ef1b797cd2be192b2a538c8c73dddcc23e635cf1e3c1777e4/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837393231363532353334343736382f756e6b6e6f776e2e706e67"><img src="https://camo.githubusercontent.com/e1f55da6f69b111ef1b797cd2be192b2a538c8c73dddcc23e635cf1e3c1777e4/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f3739383934363336323331333430383537322f3832333837393231363532353334343736382f756e6b6e6f776e2e706e67" alt="Recent Conversation Page" data-canonical-src="https://media.discordapp.net/attachments/798946362313408572/823879216525344768/unknown.png" style="max-width:100%;"></a></p>
-</li>
-</ul>
-</li>
-</ul>
-<br>
-<h2><a id="user-content-team-members-and-nick-name-used-in-the-project" class="anchor" aria-hidden="true" href="#team-members-and-nick-name-used-in-the-project"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Team Members and nick name used in the project:</h2>
-<ul>
-<li><strong>Khai Hung Luong (Hung)</strong>: I'm 3rd year comsci student who loves reading books !</li>
-<li><strong>Anshul Dhariwal (Anshul)</strong>: I am 3rd year COSC student and loves anything that is interesting to do!!</li>
-<li><strong>Jayant Puri (Jayant)</strong>: I'm a 3rd year COSC student who loves watching anime!</li>
-<li><strong>Sirus Wang (Sirus)</strong>: I'm a 3rd year COSC student who loves taking photos!</li>
-<li><strong>Shaohua Jiang (Joseph)</strong>: I'm a 3rd year math student who loves snowboarding!</li>
-</ul>
-<br>
-<h2><a id="user-content-references" class="anchor" aria-hidden="true" href="#references"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>References</h2>
-<p>Here is the link of an open-source program that helps us build our chatbot
-<a href="https://data-flair.training/blogs/python-chatbot-project/" rel="nofollow">https://data-flair.training/blogs/python-chatbot-project/</a></p>
-<p>Here is the link of stanfordcorenlp which is a Python wrapper for Stanford CoreNLP.
-<a href="https://github.com/Lynten/stanford-corenlp">https://github.com/Lynten/stanford-corenlp</a></p>
+<h2><a id="user-content-sample-outputs" class="anchor" aria-hidden="true" href="#sample-outputs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Sample Outputs:</h2>
+<h3><a id="user-content-possible-questions-that-you-can-ask-from-the-chatbot" class="anchor" aria-hidden="true" href="#possible-questions-that-you-can-ask-from-the-chatbot"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Possible Questions that you can ask from the chatbot:</h3>
+<ol>
+<li>Good day</li>
+<li>What can you do?</li>
+<li>Any anime to watch?</li>
+<li>Top action anime?</li>
+<li>What is the best adventure anime?</li>
+<li>Any top-rated drama anime?</li>
+<li>Best fantasy anime to recommend?</li>
+<li>What are the top-rated comedy anime?</li>
+<li>What is your favorite anime?</li>
+<li>Tell me about Konosuba!</li>
+<li>Who is your favorite character?</li>
+<li>What anime are you watching recently?</li>
+<li>Do you know about manga?</li>
+<li>Top-rated manga?</li>
+<li>What is your favorite manga?</li>
+<li>Tell me about Beserk!</li>
+<li>Who is your favorite Beserk character</li>
+<li>Manga that you read recently</li>
+<li>Recommend me manga</li>
+<li>Do you know about Manhwa?</li>
+<li>What are famous Manhwa?</li>
+<li>What is Otaku culture?</li>
+<li>What is anime convention?</li>
+<li>What are famous conventions?</li>
+<li>What convention do you want to vist?</li>
+<li>Tell me about Jump Festa!</li>
+<li>Tell me about Video games</li>
+<li>Tell me about Gacha</li>
+<li>What are famous gacha games?</li>
+<li>Tell me about Anime RPG</li>
+<li>What are famous Anime RPG?</li>
+<li>That’s helpful</li>
+<li>See you later!</li>
+<li>Do you know about Jujutsu Kaisen?</li>
+<li>I like Jujutsu Kaisen!</li>
+</ol>
+<h3><a id="user-content-text-demo" class="anchor" aria-hidden="true" href="#text-demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Text demo:</h3>
+<p>Turn-1  User : Good day!</p>
+<pre><code>Anime bot : Hey wassup!
+</code></pre>
+<p>Turn-2	User : What can you do?</p>
+<pre><code>Anime bot : I can talk about anime and their rankings. I can also talk about my favorite animes and discuss about them in detail.
+</code></pre>
+<p>Turn-3	User : Any anime to watch?</p>
+<pre><code>Anime bot : Koe no Katachi
+</code></pre>
+<p>Turn-4	User : Top action anime?</p>
+<pre><code>Anime bot : Top 5 Action Animes:
+1) Fullmetal Alchemist: Brotherhood
+2) Attack on Titans
+3) Gintama
+4) Hunter x Hunter
+5) Code Geass
+</code></pre>
+<p>Turn-5	User : What is the best adventure anime?</p>
+<pre><code>Anime bot : Top 5 Adventure Animes:
+1) Cowboy Bebop
+2) Spirited Away
+3) Mushishi
+4) Made in Abyss
+5) Vinland Saga
+</code></pre>
+<p>Turn-6	User : Any top-rated drama anime?</p>
+<pre><code>Anime bot : Top 5 Drama Animes:
+1) March Comes In Like A Lion
+2) A Silent Voice
+3) Clannad
+4) Your Name.
+5) Haikyuu!
+</code></pre>
+<p>Turn-7	User : Best fantasy anime to recommend?</p>
+<pre><code>Anime bot : Top 5 Fantasy Animes:
+1) Fate/Stay Night
+2) RE:Zero
+3) One Piece
+4) Weathering With You
+5) Mushoku Tensei: Jobless Reincarnation
+</code></pre>
+<p>Turn-8	User : What are the top-rated comedy anime?</p>
+<pre><code>Anime bot : Top 5 Comedy Animes:
+1) Owarimonogatari
+2) Grand Blue
+3) Konosuba
+4) Kaguya-Sama: Love is war
+5) Horimiya
+</code></pre>
+<p>Turn-9	User : What is your favorite anime?</p>
+<pre><code>Anime bot : I absolutely love Konosuba
+</code></pre>
+<p>Turn-10	User : Tell me about Konosuba!</p>
+<pre><code>Anime bot : Plot for Konosuba: Story about a High
+school student who is reincarnated in a
+new world but his pathetic luck follows him
+even there. Given the task of defeating the
+demon lord with his incompetent companions
+Will our protagonist be able to live the lavish
+life he dreamt of?
+</code></pre>
+<p>Turn-11	User : Who is your favorite character?</p>
+<pre><code>Anime bot : I like Kazuma, the main protagantist of
+Konosuba, because he is really funny!
+</code></pre>
+<p>Turn-12	User : That's cool</p>
+<pre><code>Anime bot : My pleasure
+</code></pre>
+<p>Turn-13	User : What anime are you watching recently?</p>
+<pre><code>Anime bot : Anime I am watching nowadays:
+1) Attack on Titans Final Season
+2) Dr. Stone: Stone Wars
+3) Horimiya
+4) Re:Zero Season 2 Part 2
+5) Mushoku Tensei
+</code></pre>
+<p>Turn-14 User : Do you know about manga?</p>
+<pre><code>Anime bot : Oh Yes! I love mangas too, they are
+just like comic books but japanese style.
+Many animes are adapted from manga.
+</code></pre>
+<p>Turn-15 User : Top-rated manga?</p>
+<pre><code> Anime bot : Top 5 Mangas:
+ 1) Beserk
+ 2) JoJo's Bizarre Adventure
+ 3) One Piece
+ 4) Vagabond
+ 5) Monster
+</code></pre>
+<p>Turn-16 User : What is your favorite manga?</p>
+<pre><code>Anime bot : Beserk is the best manga!
+</code></pre>
+<p>Turn-17 User : Tell me about Beserk!</p>
+<pre><code>Anime bot : Plot for Beserk: Former mercenary,after
+a tumultuous childhood, finally finds someone
+he respects and believes he can trust, only to
+have everything fall apart when this person
+takes away everything important to him. Now
+marked for death he is relentlessly pursued
+by demonic beings.
+</code></pre>
+<p>Turn-18 User : Who is your favorite Beserk character</p>
+<pre><code>Anime bot : I like Guts, the main protagantist of
+Beserk, because he has a will of iron!
+</code></pre>
+<p>Turn-19 User : Manga that you read recently</p>
+<pre><code> Anime bot : Manga I am reading nowadays:
+ 1) Tokyo Ghoul
+ 2) Bleach
+ 3) Fairy Tail
+ 4) Solo Leveling
+ 5) Tower of God
+</code></pre>
+<p>Turn-20 User: Recommend me manga</p>
+<pre><code> Anime bot : Nisekoi
+</code></pre>
+<p>Turn-21 User : Do you know about Manhwa?</p>
+<pre><code>  Anime bot : Manhwa are korean comic books just
+like manga from japanese culture. They are
+very popular too
+</code></pre>
+<p>Turn-22 User : What are famous Manhwa?</p>
+<pre><code>Anime bot : Famous Manhwa:
+1) Solo Leveling
+2) Tower of God
+3) God of Highschool
+4) Noblesse
+5) Sweet Home
+</code></pre>
+<p>Turn-23 User : What is Otaku culture?</p>
+<pre><code> Anime bot : Otaku is a string of Japanese culture
+ where specifically people in foreign countries
+ have a passion for certain Japanese things
+ such as manga, anime, video games, idols
+ and anime conventions.
+</code></pre>
+<p>Turn- 24: What is anime convention?</p>
+<pre><code> Anime bot : An anime convention is an event or
+ gathering with a primary focus on anime,
+ manga and Japanese culture. Commonly,
+ anime conventions are multi-day events
+ hosted at convention centers, hotels or
+ college campuses.
+</code></pre>
+<p>Turn-25 User : What are famous conventions?</p>
+<pre><code>Anime bot : Famous Conventions:
+1) Comiket
+2) Jump Festa
+3) Tokyo Toy Show
+4) AnimeJapan
+5) World Cosplay Summit
+</code></pre>
+<p>Turn-26 User : What convention do you want to vist?</p>
+<pre><code> Anime bot : I really really want to visit Jump Festa,
+ to witness the glory of shounen.
+</code></pre>
+<p>Turn-27 User : Tell me about Jump Festa!</p>
+<pre><code> Anime bot : Jump Festa is sponsored by Shueisha
+ Inc. publisher of the Jump manga anthologies
+ whose roster includes One Piece, Dragon Ball,
+ Naruto, Gintama, Haikyuu!!, Assassination
+ Classroomand many more. The event is a
+ prime forum for introducing new movies,
+ manga,games and merchandise. Keep an
+ eye out for plenty of cosplay as well!
+</code></pre>
+<p>Turn-28 User : Tell me about Video games</p>
+<pre><code>Anime bot : Video games are a very important part
+of otaku culture, in which the most famous
+categories are Gacha games and Anime
+RPGs.
+</code></pre>
+<p>Turn-29 User : Tell me about Gacha</p>
+<pre><code> Anime bot : Gacha games are video games that
+ implement the gacha mechanic. Similar to
+ loot boxes in video games, gacha games
+ induce players to spend in-game currency to
+ receive a random virtual item.
+</code></pre>
+<p>Turn-30 User : What are famous gacha games?</p>
+<pre><code> Anime bot : Popular Gacha Games:
+1) Genshin Impact
+2) Dragon Ball Legends
+3) Dragon Ball Dokkan Battle
+4) Fate/Stay Night
+5) Runterra
+</code></pre>
+<p>Turn-31 User : Tell me about Anime RPG</p>
+<pre><code>Anime bot : Anime RPGs are video games that
+allows players to take control of their favorite
+character from an anime and live their story.
+It ranges from open world games to hack &amp;
+slash games.
+</code></pre>
+<p>Turn-32 User : What are famous Anime RPG?</p>
+<pre><code>Anime bot : Popular Anime RPG: 
+1) Person 5:Strikers
+2) Dragon Ball: Kakarot
+3) Final Fantasy 15
+4) Dragon Quest XI
+5) Dragon Ball: Xenoverse 2
+</code></pre>
+<p>Turn-33 User : Tell me about Japan?</p>
+<pre><code>Anime bot : Japan has a fascinating and multifaceted
+culture; on the one hand it is steeped in the deepest 
+of traditions dating back thousands of years; on the
+other it is a society in a continual state of rapid 
+flux, with continually shifting fads and fashions and
+technological development that constantly pushes back 
+the boundaries of the possible.
+</code></pre>
+<p>Turn-34 User : Tell me about People in Japan?</p>
+<pre><code>Anime bot: Japanese people appear at first glance to be
+one of the most socially and ethnically homogenous groups 
+in the world.
+</code></pre>
+<p>Turn-35 User : Tell me about Religion in Japan?</p>
+<pre><code>Anime bot : Japan's de facto national sport (although this 
+is not an official status) is the enthralling and at times
+bewildering spectacle that is sumo. Deeply rooted in Japan's
+culture, sumo has a history of over 1,500 years. Legend has 
+it that the very survival of the Japanese people balanced on
+the outcome of a sumo match between the gods, and indeed sumo 
+originated as a form of Shinto ritual.
+</code></pre>
+<p>Turn-36 User : Tell me about food in Japan?</p>
+<pre><code>Anime bot : When it comes to food, the Japanese are among the
+most enthusiastic and passionate of any race. Ask any Japanese
+person about a recent trip within Japan and the conversation
+almost always includes talk of the local food. In fact, for many
+Japanese travelling outside of their hometowns, food is often one
+of the primary motivators for travelling.
+</code></pre>
+<p>Turn-37 User : Tell me about Samurais?</p>
+<pre><code>Anime bot : In Japanese history, samurai culture and the role this
+military class played in shaping Japan is a fascinating one.
+Although samurai no longer exist, the influence of these great 
+warriors still manifests itself deeply in Japanese culture and
+samurai heritage can be seen all over Japan - be it a great castle,
+a carefully planned garden, or beautifully preserved samurai
+residences. It is also deeply ingrained in the psyche of the Japanese
+people.
+</code></pre>
+<p>Turn-38 User : That's helpful!</p>
+<pre><code>Anime bot : My pleasure
+</code></pre>
+<p>Turn-39 User : See you later</p>
+<pre><code>Anime bot : Bye! Come back again soon
+</code></pre>
+<h3><a id="user-content-here-are-two-unique-cases-where-the-chatbot-doesnt-work-as-intended" class="anchor" aria-hidden="true" href="#here-are-two-unique-cases-where-the-chatbot-doesnt-work-as-intended"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Here are two unique cases where the chatbot doesn't work as intended:</h3>
+<h4><a id="user-content-case-1" class="anchor" aria-hidden="true" href="#case-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Case 1:</h4>
+<p>Turn-1 User : Tell me about Jujutsu Kaisen</p>
+<pre><code>   Chatbot :  Anime bot : Gacha games are video games that
+ implement the gacha mechanic. Similar to
+ loot boxes in video games, gacha games
+ induce players to spend in-game currency to
+ receive a random virtual item.
+</code></pre>
+<h4><a id="user-content-case-2" class="anchor" aria-hidden="true" href="#case-2"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Case 2:</h4>
+<p>Turn-2 User:  Do you know about Jujutsu Kaisen?</p>
+<pre><code>   Chatbot : I can talk about anything to everything
+   	 about otaku culture. I can also talk about my
+ favourite part of otaku culture.
+</code></pre>
+<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/31243905/110843456-51ab8080-82ce-11eb-9743-b745f19f0e4e.png"><img src="https://user-images.githubusercontent.com/31243905/110843456-51ab8080-82ce-11eb-9743-b745f19f0e4e.png" alt="image" style="max-width:100%;"></a></p>
 </article>
   </div>
 
@@ -1522,10 +1728,10 @@ Link for the second live demo:
      hidden
      data-tagsearch-url="/shiro102/Chat-bot-team-20/find-definition"
      data-tagsearch-ref="main"
-     data-tagsearch-path="README.md"
+     data-tagsearch-path="SDLC, WBS and Gantt chart.md"
      data-tagsearch-lang="Markdown"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:341125886,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/README.md&quot;,&quot;user_id&quot;:31243905}}"
-     data-hydro-click-hmac="5ffeacd8ba1a51e9bdeb94d450d958ad7f4a390e89919fae577e46c9de4c7b83">
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:341125886,&quot;ref&quot;:&quot;main&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/shiro102/Chat-bot-team-20/blob/main/SDLC%2C%20WBS%20and%20Gantt%20chart.md&quot;,&quot;user_id&quot;:31243905}}"
+     data-hydro-click-hmac="33b1c6368f0f0f5c83730943af2092afe79e92ef60d474c36f82ad3cda566316">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box color-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>
