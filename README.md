@@ -133,7 +133,7 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
   - Twitter API:
         - I used the twitter api to supplement the information that is provided by wikipedia. It just gives user the prepective of what different people on social media platforms tgink about that topic, therefore giving more insight on that topic  
         
-        - Snippet : https://discord.com/channels/@me/656742259424755733/832074852931600434
+        - Snippet : https://cdn.discordapp.com/attachments/656742259424755733/832074852739186698/twitter.PNG
 
 <br>
 
