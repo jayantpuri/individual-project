@@ -127,7 +127,7 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
        - This feature is useful for users who wish to communicate with the chatbot in thier language of choice. The chatbot also responds to the users in the language in which they
      asked the questions in
      
-    - Snippet : https://cdn.discordapp.com/attachments/656742259424755733/832062265033097236/translate.PNG
+    - Snippet : ![Level-0 DFD](https://cdn.discordapp.com/attachments/656742259424755733/832062265033097236/translate.PNG)
   
   
   - Twitter API:
