@@ -1,12 +1,15 @@
-# Chat-bot-team-20
+# Individual project by Jayant Puri
 
 Link for the first live demo:
 <https://drive.google.com/file/d/1r-Z9tOQUw9xpVBAXJCbN5R_DBIHX0QFv/view>
 <br>
 Link for the second live demo:
 <https://drive.google.com/file/d/1_DKAy2UgbUeMMk6meNT-RrQ6qOt9WOhY/view>
+<br>
+Link for the latest live demo:
+
 =======
-Github URL: <br>https://github.com/shiro102/Chat-bot-team-20
+Github URL for individual project: <br>https://github.com/shiro102/Chat-bot-team-20
 =======
 ## Describe your topic/interest (context of the chatbot, who will use it, etc. )
 
