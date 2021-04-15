@@ -124,16 +124,16 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 - Individual project features
 
 - Google translate API:
-       - This feature is useful for users who wish to communicate with the chatbot in thier language of choice. The chatbot also responds to the users in the language in which they
+    - This feature is useful for users who wish to communicate with the chatbot in thier language of choice. The chatbot also responds to the users in the language in which they
      asked the questions in
      
     - Snippet : ![Level-0 DFD](https://cdn.discordapp.com/attachments/656742259424755733/832062265033097236/translate.PNG)
   
   
-  - Twitter API:
-        - I used the twitter api to supplement the information that is provided by wikipedia. It just gives user the prepective of what different people on social media platforms tgink about that topic, therefore giving more insight on that topic  
+- Twitter API:
+    - I used the twitter api to supplement the information that is provided by wikipedia. It just gives user the prepective of what different people on social media platforms tgink about that topic, therefore giving more insight on that topic  
         
-        - Snippet :  ![Level-0 DFD](https://cdn.discordapp.com/attachments/656742259424755733/832074852739186698/twitter.PNG)
+    - Snippet :  ![Level-0 DFD](https://cdn.discordapp.com/attachments/656742259424755733/832074852739186698/twitter.PNG)
 
 <br>
 
