@@ -650,3 +650,9 @@ https://data-flair.training/blogs/python-chatbot-project/
 
 Here is the link of stanfordcorenlp which is a Python wrapper for Stanford CoreNLP.
 https://github.com/Lynten/stanford-corenlp
+
+Here is the Link for the Twitter API:
+https://github.com/bear/python-twitter
+
+Here is the link for the google translate API:
+https://pypi.org/project/googletrans/
