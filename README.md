@@ -84,12 +84,6 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 
 <br>
 
-## Software development life cycles
-
-
-# Chat-bot-team-20
-=======
-
 ## About Our Project: 
 <br>
 
