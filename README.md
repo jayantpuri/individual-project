@@ -124,7 +124,7 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 
     - Snippet: ![Recent Conversation Page](https://media.discordapp.net/attachments/798946362313408572/823879216525344768/unknown.png)
 
-- Individual project features
+## - Individual project features
 
 - Google translate API:
     - This feature is useful for users who wish to communicate with the chatbot in thier language of choice. The chatbot also responds to the users in the language in which they
