@@ -134,7 +134,7 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
   
   
 - Twitter API:
-    - I used the twitter api to supplement the information that is provided by wikipedia. It just gives user the prepective of what different people on social media platforms think about that topic, therefore giving more insight on that topic  
+    - I used the twitter api to supplement the information that is provided by wikipedia. It just gives user the prepective of what different people on social media platforms think about that topic, therefore giving more insight on that topic. The API has been implemented in such a way that it works with google translate as well.  
         
     - Snippet :  ![Level-0 DFD](https://cdn.discordapp.com/attachments/656742259424755733/832074852739186698/twitter.PNG)
 
