@@ -97,11 +97,11 @@ Our team chose incremental development as our SDLC model, generated a list of ta
 
 <br>
 
-## The Software managment oart of the project:
+## The Software managment part of the project:
 
 <br>
 
-### **Our Choice**: Incremental Development
+### **Choice for development process**: Incremental Development
 <br>
 
 ### **Rationale**: 
