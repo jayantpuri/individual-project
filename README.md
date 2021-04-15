@@ -121,6 +121,20 @@ There are 12 classes used in the code: nltk, json, pickle, numpy, keras, and tki
 
     - Snippet: ![Recent Conversation Page](https://media.discordapp.net/attachments/798946362313408572/823879216525344768/unknown.png)
 
+- Individual project features
+
+- Google translate API:
+       - This feature is useful for users who wish to communicate with the chatbot in thier language of choice. The chatbot also responds to the users in the language in which they
+     asked the questions in
+     
+    - Snippet : https://cdn.discordapp.com/attachments/656742259424755733/832062265033097236/translate.PNG
+  
+  
+  - Twitter API:
+        - I used the twitter api to supplement the information that is provided by wikipedia. It just gives user the prepective of what different people on social media platforms tgink about that topic, therefore giving more insight on that topic  
+        
+        - Snippet : https://discord.com/channels/@me/656742259424755733/832074852931600434
+
 <br>
 
 ## Team Members and nick name used in the project:
